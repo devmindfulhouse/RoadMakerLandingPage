@@ -3,19 +3,191 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link type="text/css" rel="stylesheet" href="./style/main.css">
     <title>RoadMaker</title>
 </head>
 <body>
-    <main class="underConstruction">
-        <img src= "imgs/underConstructionGif.webp" alt="Under Construction" class="underConstructionImg">
-        <p>Sorry, this page is under construction. Please check back later.</p>
-        <section class="roadMakerSection">
-            <div class="logoContainer">
-                <img src="imgs/logo_header.png" alt="RoadMaker Logo" >
+    <navbar class="navbar--container" id="navbar">
+        <div class="navbar--container__logo">
+            <img src="./imgs/logo_header.png" alt="" role="presentation">
+            <h1>RoadMaker</h1>
+        </div>
+        <div class="navbar--container__menu">
+            <a href="#solution">La solution</a>
+            <a href="#specificities">Les spécificités</a>
+            <a href="#usages">Les usages</a>
+            <a href="#target_application">Les secteurs d'activités</a>
+            <a href="#partners">Les partenaires</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </navbar>
+    <div class="slider--container">
+        <img src="./imgs/mans_innovation_mans_sonorejpg.jpg" alt="" role="presentation" class="img__slider active">
+        <img src="./imgs/placeholder.webp" alt="" role="presentation" class="img__slider">
+        <img src="./imgs/placeholder.webp" alt="" role="presentation" class="img__slider">
+        <div class="slider--container__next">       
+             <i class="fa-solid fa-circle-chevron-right"></i>
+        </div>
+        <div class="slider--container__prev">
+            <i class="fa-solid fa-circle-chevron-left"></i>
+        </div> 
+        <div class="slider--container__dot">
+            <i class="fa-solid fa-circle slider_dot"></i>
+            <i class="fa-solid fa-circle slider_dot"></i>
+            <i class="fa-solid fa-circle slider_dot"></i>
+        </div>
+       
+         
+    </div>
+    <article class="solution--container" id="solution">
+        <h1>La solution</h1>
+        <p>RoadMaker est une solution numérique pour la gamification des parcours d’intégration (onboarding, pré-boarding, formation, teambuilding…).</p>
+        <p>Ces parcours sont destinés à être implémentés pour des managers, des formateurs, des acteurs du développement pédagogique et culturel des territoires entre autres.</p>
+        <p>En outre, la solution RoadMaker est réfléchie pour permettre à ces acteurs de transmettre des informations qualifiées d’une manière ludique, à travers un support numérique (smartphone, tablette) et surtout sans avoir de compétences en programmation ni en développement.</p>
+
+        <div class="solution--container__button">
+            <button type="button" class="button__solution">Réserver une démo</button>
+        </div>
+    </article>
+    <section id="specificities">
+        <div class="argument--container">
+            <div class="argument--container__item">
+                <i class="fa-solid fa-puzzle-piece"></i>                
+                <h2>Conception de vos propres parcours</h2>
+                <p>La mise en place d'une interface simple permet avec des copie/coller ou des glisser/déposer de créer son propre parcours à partir de la localisation GPS ou de scan de QR code.</p>
+            </div>
+            <div class="argument--container__item">
+                <i class="fa-solid fa-database"></i>                
+                <h2>Accès à la data par des tableaux de bord</h2>
+                <p>Les utilisateurs ont accès à une interface dédiée pour permettre de créer les parcours et récupérer l'ensemble des informations des participants et usagers.</p>
+            </div>
+            <div class="argument--container__item">
+                <i class="fa-solid fa-compass"></i>                
+                <h2>Capter et orienter le public à des fins pédagogiques</h2>
+                <p>Les projets pédagogiques générés dans la solution JEMos permettent aux utilisateurs de valider, comprendre, découvrir des informations à partir d'un lieu défini sur la carte.</p>
+            </div>
+            <div class="argument--container__item">
+                <i class="fa-solid fa-person-rays"></i>
+                <h2>Une solution agile pour s'adapter aux utilisateurs</h2>
+                <p>Quelque soit l'objectif du créateur de parcours dans la solution JEMos, les nombreuses fonctionnalités de création permettent de répondre aux besoins sans être un expert en informatique.</p>
+            </div>
+        </div>
+    </section>
+    <section class="usage--container" id="usages">
+        <h1>Les premiers usages de la solution RoadMaker </h1>
+        <div class="usage--container__pictures">
+            <div class="usage--container__pictures__item">
+                <img src="./imgs/CAMPUS-EXPRESS.jpg" alt="" role="presentation">
+                <h3>Expérimentation Campus Express</h6>
+            </div>
+            <div class="usage--container__pictures__item">
+                <div class="video--iframe">
+                    <iframe src="https://www.youtube.com/embed/Lq98waDaXRE?si=GODCznr3r7DPaOgL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    
+                </div>
+                <h3> Intégration à la bibliothèque universitaire du Mans <br>grâce à RoadMaker </h3>
+            </div>
+        </div>
+    </section>
+    <section class="target--container" id="target_application">
+        <h1>Les secteurs d'applications de la solution RoadMaker</h1>
+        <div class="target--application">
+           
+            <div class="target--application__item">
+                <img src="./imgs/workerhouse.jpg" alt="" role="presentation">
+                <h3>Formation professionnelle sur site</h3>
+                <p>La formation professionnelle est une préoccupation permanente pour maintenir les salariés en veille et le niveau de performance. C'est pourquoi, la mise en place de parcours RoadMaker sur le site va inciter de manière ludique les équipes à prendre de l'information de manière quotidienne.</p>
+            </div>
+            <div class="target--application__item">
+                <img src="./imgs/austincompany.jpg" alt="" role="presentation">
+                <h3>Evénementiel d'entreprise</h3>
+                <p>La notion de partage et d'interaction pour ainsi créer un effet de groupe est l'un des atouts de la solution RoadMaker. Ainsi, vous pouvez créer un parcours de team building coopératif pour permettre à vos équipes de créer du lien tout en apportant un contenu pédagogique en lien avec l'entreprise.</p>
+            </div>
+            <div class="target--application__item">
+                <img src="./imgs/industry.jpg" alt="" role="presentation">
+                <h3>Sécurité et qualité industrielle</h3>
+                <p>La solution RoadMaker va permettre de proposer aux travailleurs de site industriel de créer des parcours d'intégration des salariés pour ainsi mettre en avant les risques sécuritaires le site. En conséquence, c'est une manière ludique d'intégrer le personnel et accélérer sa prise de poste en sécurité.</p>
+            </div>
+        </div>
+        <div class="target--application">
+            <div class="target--application__item">
+                <img src="./imgs/museum.jpg" alt="" role="presentation">
+                <h3>Tourisme et lieux culturels</h3>
+                <p>Permettre à des visiteurs de s'approprier un lieu de manière ludique en gardant l'aspect pédagogique. Ainsi, il est aussi possible de mettre en avant un site spécifique pour une mise en valeur renforcée.</p>
+            </div>
+            <div class="target--application__item">
+                <img src="./imgs/scholar.jpg" alt="" role="presentation">
+                <h3>Education et Pédagogie d'apprentissage</h3>
+                <p>Les enseignants peuvent utiliser la solution RoadMaker pour apporter une innovation pédagogique et ludique à leurs enseignements. D'autre part c'est un moyen de créer un lien renforcé avec et entre les étudiants.</p>
+            </div>
+        </div>
+    </section>
+    <section class="partners--section" id="partners">
+        <h3>Ils nous font déjà confiance</h3>
+        <div class="partners--container">
+            <div class="partners--container__card">
+                <img src="./imgs/le-mans-universite-logo.png" alt="" role="presentation">
+                <p>Notre partenaire terrain</p>
+            </div>
+            <div class="partners--container__card">
+                <img src="./imgs/PEPS.png" alt="" role="presentation">
+                <p>Notre première récompense</p>
+            </div>
+            <div class="partners--container__card">
+                <img src="./imgs/ccc.png" alt="" role="presentation">
+                <p>Notre partenaire institutionnel</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact--container">
+            <div class="contact--container__header">
+                <h1>Contactez-nous</h1>
+                <p>Pour tout complément d'information ou question, n'hésitez pas à nous envoyer un message avec vos cordonnées. Notre équipe vous contactera rapidement</p>
+            </div>
+            <form action="" class="contact--container__form">
+                <div class="">
+                    <div class="contact--container__form__item">
+                        <label for="name">Nom :</label>
+                        <input type="text" name="name" id="name" placeholder="Votre nom">
+                    </div>
+                    <div class="contact--container__form__item">
+                        <label for="email">Email :</label>
+                        <input type="email" name="email" id="email" placeholder="Votre email">
+                    </div>
+                    <div class="contact--container__form__item">
+                        <label for="email">Site Web :</label>
+                        <input type="text" name="website" id="website" placeholder="Votre site web">
+                    </div>
+                    <div class="contact--container__form__item">
+                        <label for="message">Message :</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Votre message"></textarea>
+                    </div>
+                </div>
+                <div class="contact--container__button">
+                    <button type="submit" class="button__contact">Envoyer</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="footer--container">
+            <div class="footer--container__logo">
+                <img src="./imgs/logo_header.png" alt="" role="presentation">
                 <h1>RoadMaker</h1>
             </div>
-        </section>
-    </main>
+            <div class="footer--container__menu">
+                <a href="">Mentions légales</a>
+                <a href="#navbar">Retour en haut</a>
+            </div>
+            <div class="footer--container__social">
+                <a href="https://twitter.com/HouseMindful" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.linkedin.com/company/mindful-houselemans/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+    <button id="back-to-top" title="Back to the top"><i class="fa-solid fa-arrow-up"></i></button>
+    <script src="./js/app.js"></script>
 </body>
 </html>
