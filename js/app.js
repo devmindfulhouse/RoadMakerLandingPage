@@ -54,19 +54,36 @@ setInterval(function () {
   nextSlide();
 }, 5000);
 
-window.onscroll = function () {
+// Add scroll event listener to the window
+window.addEventListener("scroll", function () {
   var button = document.getElementById("back-to-top");
-  if (
-    document.documentElement.scrollTop > 400 &&
-    document.documentElement.scrollTop + window.innerHeight <
-      document.documentElement.scrollHeight
-  ) {
-    button.style.display = "block";
-  } else {
-    button.style.display = "none";
+  if (button) {
+    // Check if the element exists
+    if (
+      window.pageYOffset > 400 &&
+      window.pageYOffset + window.innerHeight <
+        document.documentElement.scrollHeight
+    ) {
+      button.style.display = "block";
+    } else {
+      button.style.display = "none";
+    }
   }
-};
+});
 
-document.getElementById("back-to-top").addEventListener("click", function () {
-  window.scrollTo({ top: 0, behavior: "smooth" });
+// Add click event listener to the back-to-top button
+var button = document.getElementById("back-to-top");
+if (button) {
+  // Check if the element exists
+  button.addEventListener("click", function () {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+}
+
+let toggle = document.querySelector(".navbar--container__burger");
+let body = document.querySelector("body");
+
+toggle.addEventListener("click", function () {
+  body.classList.toggle("open");
+  document.querySelector(".navbar--container__menu").classList.toggle("open");
 });

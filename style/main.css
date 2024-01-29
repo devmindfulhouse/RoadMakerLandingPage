@@ -41,6 +41,13 @@ body {
   margin-right: 0.5rem;
 }
 
+.navbar--container__logo a {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+
 .navbar--container__menu {
   display: flex;
   align-items: center;
@@ -75,18 +82,11 @@ body {
 
 .navbar--container__burger {
   display: none;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 2rem;
-  height: 2rem;
-  cursor: pointer;
 }
 
-.navbar--container__burger div {
-  width: 2rem;
-  height: 0.25rem;
-  background-color: #333;
-  border-radius: 10px;
+.navbar--container__burger i {
+  color: white;
+  font-size: 2rem;
 }
 
 /*==================== SLIDER ====================*/
@@ -504,15 +504,10 @@ textarea {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  margin: auto;
+
   padding: 1rem;
   background-color: var(--main-color);
-}
-
-.footer--container__logo,
-.footer--container__menu,
-.footer--container__social {
-  text-align: center; /* Centrer le texte à l'intérieur de chaque élément */
 }
 
 .footer--container__logo {
@@ -520,14 +515,16 @@ textarea {
   align-items: center;
   color: white;
   font-weight: 500;
-  gap: 0.5rem;
+}
+
+.footer--container__logo img {
+  margin-right: 0.5rem;
 }
 
 .footer--container__menu {
   display: flex;
   align-items: center;
   gap: 1rem;
-  margin-right: 8rem;
 }
 
 .footer--container__menu a {
@@ -559,7 +556,6 @@ textarea {
 .footer--container__social {
   display: flex;
   align-items: center;
-  gap: 2rem;
 }
 
 .footer--container__social a {
@@ -586,25 +582,102 @@ textarea {
   display: none;
 }
 
+/*==================== MENTIONS LEGALES ====================*/
+
+.mentions--container {
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.mentions--container__header {
+  display: flex;
+  flex-direction: column;
+  color: var(--main-color);
+}
+
+.mentions--container__header h1 {
+  font-size: 2rem;
+  font-weight: 1000;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mentions--container__header p {
+  font-size: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mentions--container__identity__item {
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
 /*==================== RESPONSIVE ====================*/
 
 @media screen and (max-width: 768px) {
   .navbar--container {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
   .navbar--container__logo {
-    margin-bottom: 1rem;
+    z-index: 20;
   }
 
   .navbar--container__menu {
-    flex-direction: column;
-    align-items: center;
+    display: none;
   }
 
-  .navbar--container__menu a {
-    margin-bottom: 1rem;
+  .ouvrir {
+    display: block;
+  }
+
+  .fermer {
+    display: none;
+  }
+
+  .open .ouvrir {
+    display: none;
+  }
+
+  .open .fermer {
+    display: block;
+  }
+
+  .navbar--container__burger {
+    display: block;
+    z-index: 20;
+    cursor: pointer;
+  }
+
+  .navbar--container__menu.open {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 85%;
+    height: 60vh;
+    flex-direction: column;
+    justify-content: flex-start; /* Modifié */
+    padding: 2rem;
+    z-index: 10;
+    background-color: var(--main-color);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  }
+
+  .navbar--container__menu.open a {
+    margin: 0.5rem 0; /* Ajouté */
+    margin-top: 3rem; /* Modifié */
+  }
+
+  .navbar--container__logo img {
+    width: 1.5rem; /* Ajustez la valeur selon vos besoins */
+    height: auto; /* Pour maintenir le ratio d'aspect */
+  }
+
+  .navbar--container__logo h1 {
+    font-size: 1.5rem;
   }
 
   .argument--container {
@@ -656,23 +729,24 @@ textarea {
   }
 
   .footer--container {
+    display: flex;
     flex-direction: column;
     align-items: center;
   }
 
   .footer--container__menu {
     display: flex;
-    flex-direction: row;
+    justify-content: space-around; /* 'justify-around' n'est pas valide, utilisez 'space-around' */
     align-items: center;
-    margin-right: 0;
   }
 
-  .footer--container__social {
+  .footer--container__menu a {
     margin-top: 1rem;
   }
 
-  .footer--container__social a {
-    font-size: 1.25rem;
+  .footer--container__social {
+    display: flex; /* Ajoutez 'display: flex;' pour utiliser 'gap' */
+    gap: 1rem;
   }
 
   #back-to-top {
