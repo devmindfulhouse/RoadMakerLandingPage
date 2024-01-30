@@ -11,14 +11,19 @@
 </head>
 
 <body>
-    <navbar class="navbar--container" id="navbar">
+    <nav class="navbar--container" id="navbar">
         <div class="navbar--container__logo">
             <a href="index.html">
                 <img src="./imgs/logo_header.png" alt="Logo de RoadMaker">
                 <h1>RoadMaker</h1>
             </a>
         </div>
-        <div class="navbar--container__menu">
+        <div class="navbar--container__burger">
+            <i class="fas fa-bars ouvrir"></i>
+            <i class="fa-solid fa-xmark fermer"></i>
+
+        </div>
+        <div class="navbar--container__menu" id="navbarMenu">
             <a href="#solution">La solution</a>
             <a href="#specificities">Les spécificités</a>
             <a href="#usages">Les usages</a>
@@ -26,7 +31,9 @@
             <a href="#partners">Les partenaires</a>
             <a href="#contact">Contact</a>
         </div>
-    </navbar>
+        
+       
+    </nav>
     <div class="mentions--container">
         <div class="mentions--container__header">
             <h1>Mentions légales</h1>
@@ -54,5 +61,6 @@
             </section>
         </div>
     </div>
+    <script src="./js/mentions.js"></script>
 </body>
 </html>

@@ -657,18 +657,19 @@ textarea {
     top: 0;
     left: 0;
     width: 85%;
-    height: 60vh;
+    max-width: 490px;
+    height: 32vh;
     flex-direction: column;
     justify-content: flex-start; /* Modifié */
     padding: 2rem;
     z-index: 10;
     background-color: var(--main-color);
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    margin-top: 2rem;
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
   }
 
   .navbar--container__menu.open a {
-    margin: 0.5rem 0; /* Ajouté */
-    margin-top: 3rem; /* Modifié */
+    margin-top: 1rem;
   }
 
   .navbar--container__logo img {
@@ -754,5 +755,21 @@ textarea {
     height: 40px;
     font-size: 1.25rem;
     padding: 5px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .navbar--container__menu.open {
+    height: 42vh;
+    padding: 2rem;
+    margin-top: 2rem;
+    /*box shadow que sur le bas*/
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    width: 82%;
+  }
+
+  .navbar--container__menu.open a {
+    margin-top: 1rem; /* Modifié */
+    font-size: 1rem;
   }
 }
