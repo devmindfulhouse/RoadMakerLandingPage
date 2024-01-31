@@ -613,6 +613,108 @@ textarea {
   margin-bottom: 2rem;
 }
 
+/*==================== MODAL ====================*/
+
+.modal__error {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 0.5rem solid var(--second-color);
+  border-radius: 15px;
+  text-align: center;
+}
+
+.modal__error__header {
+  color: var(--second-color);
+}
+
+.modal__error__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-wrap: balance;
+  color: var(--second-color);
+  margin: auto;
+  padding: auto;
+}
+
+.icon__modal__error {
+  background-color: var(--second-color);
+  color: white;
+  padding: 2rem;
+  font-size: 2.5rem;
+  border-radius: 50%; /* rend le cercle parfait */
+  width: 2rem; /* définir une largeur */
+  height: 2rem; /* définir une hauteur */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.modal__contact,
+.loading__modal {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 0.5rem solid var(--main-color);
+  border-radius: 15px;
+  text-align: center;
+}
+
+.modal__contact__header {
+  color: var(--main-color);
+}
+
+.modal__contact__body,
+.loading__modal__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-wrap: balance;
+  color: var(--main-color);
+  margin: auto;
+  padding: auto;
+}
+
+.icon__modal__contact {
+  background-color: var(--main-color);
+  color: white;
+  padding: 2rem;
+  font-size: 2.5rem;
+  border-radius: 50%; /* rend le cercle parfait */
+  width: 2rem; /* définir une largeur */
+  height: 2rem; /* définir une hauteur */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.modal__contact::backdrop,
+.modal__error::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal__contact__footer__button,
+.modal__error__footer__button {
+  background-color: var(--second-color);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  transition: transform 0.25s ease-out;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.modal__contact__footer__button:hover,
+.modal__error__footer__button:hover {
+  transition: transform 0.25s ease-out;
+  transform: scale(1.05);
+}
+
 /*==================== RESPONSIVE ====================*/
 
 @media screen and (max-width: 768px) {

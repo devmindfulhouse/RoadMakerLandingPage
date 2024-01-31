@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<script>
+    import sendEmail from "./js/sendEmail.js";
+</script>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link type="text/css" rel="stylesheet" href="./style/main.css">
     <link rel="icon" href="./imgs/logo_connexion.ico" class="icon" type="image/x-icon">
+    
     <title>RoadMaker</title>
 </head>
 <body>
@@ -157,31 +161,79 @@
                 <h1>Contactez-nous</h1>
                 <p>Pour tout complément d'information ou question, n'hésitez pas à nous envoyer un message avec vos cordonnées. Notre équipe vous contactera rapidement</p>
             </div>
-            <form action="" class="contact--container__form">
+            <form action="" class="contact--container__form" onsubmit="sendEmail(event)">
                 <div class="">
                     <div class="contact--container__form__item">
                         <label for="name">Nom :</label>
-                        <input type="text" name="name" id="name" placeholder="Votre nom">
+                        <input type="text" name="name" id="name" placeholder="Votre nom" required>
                     </div>
                     <div class="contact--container__form__item">
                         <label for="email">Email :</label>
-                        <input type="email" name="email" id="email" placeholder="Votre email">
+                        <input type="email" name="email" id="email" placeholder="Votre email" required>
                     </div>
                     <div class="contact--container__form__item">
-                        <label for="email">Site Web :</label>
-                        <input type="text" name="website" id="website" placeholder="Votre site web">
+                        <label for="subject">Sujet du mail :</label>
+                        <input type="text" name="subject" id="subject" placeholder="Votre sujet" required>
                     </div>
                     <div class="contact--container__form__item">
                         <label for="message">Message :</label>
-                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Votre message"></textarea>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Votre message" required></textarea>
                     </div>
                 </div>
                 <div class="contact--container__button">
-                    <button type="submit" class="button__contact">Envoyer</button>
+                    <button type="submit" class="button__contact" id="openModal">Envoyer</button>
                 </div>
             </form>
         </div>
     </section>
+
+    <!--Loading Modal-->
+    <dialog  class="loading__modal" id="loading__modal">
+        
+            <div class="loading__modal__header">
+                <img src="./imgs/Dual Ring-1s-200px.gif" alt="" role="presentation">
+                
+            </div>
+            <div class="loading__modal__body">
+                <h1>Envoi en cours</h1>
+            </div>
+        
+    </dialog>
+
+    <!-- Modal contact -->
+    <dialog class="modal__contact" id="modal__contact">
+        <div class="icon__modal__contact">
+            <i class="fa-solid fa-check"></i>
+        </div>
+        <div class="modal__contact__header">
+            <h1>Message envoyé</h1>
+        </div>
+        <div class="modal__contact__body">
+            <p>Votre message a bien été envoyé. Nous vous recontacterons dans les plus brefs délais.<br>Un email récapitulatif de votre demande à été envoyé à l'adresse que vous nous avez communiqué.</p>
+        </div>
+        <div class="modal__contact__footer">
+            <button class="modal__contact__footer__button" id="close__modal__contact">Fermer</button>
+        </div>
+    </dialog>
+
+    <!-- Modal error -->
+
+    <dialog class="modal__error" id="modal__error">
+        <div class="icon__modal__error">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+        </div>
+        <div class="modal__error__header">
+            <h1>Champs incomplets</h1>
+        </div>
+        <div class="modal__error__body">
+            <p>Votre message n'a pas pu être envoyé. Veuillez vérifier que tous les champs sont bien remplis.</p>
+        </div>
+        <div class="modal__error__footer">
+            <button class="modal__error__footer__button" id="close__modal__error">Fermer</button>
+        </div>
+    </dialog>
+
+
     <footer>
         <div class="footer--container">
             <div class="footer--container__logo">
@@ -199,5 +251,17 @@
     </footer>
     <button id="back-to-top" title="Back to the top"><i class="fa-solid fa-arrow-up"></i></button>
     <script src="./js/app.js"></script>
+    <script src="./js/sendEmail.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init("FQqiYv2tNHs-Gfnz7");
+    })();
+    </script>
+    
+
+
 </body>
 </html>
