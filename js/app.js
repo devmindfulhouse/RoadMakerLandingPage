@@ -72,13 +72,12 @@ window.addEventListener("scroll", function () {
 });
 
 // Add click event listener to the back-to-top button
-var button = document.getElementById("back-to-top");
-if (button) {
-  // Check if the element exists
-  button.addEventListener("click", function () {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+document.getElementById("back-to-top").addEventListener("click", function () {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
   });
-}
+});
 
 let toggle = document.querySelector(".navbar--container__burger");
 let body = document.querySelector("body");

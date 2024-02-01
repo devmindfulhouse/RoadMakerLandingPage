@@ -50,6 +50,7 @@ function sendEmail(e) {
     .catch((err) => console.error(err));
 
   if (modal) {
+    document.body.style.overflow = "";
     closeModalButton.addEventListener("click", () => {
       modal.close();
     });
