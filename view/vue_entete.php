@@ -23,7 +23,7 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WH5QRF83" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<nav class="navbar--container navbar navbar-expand-lg navbar-dark">
+<nav class="navbar--container navbar navbar-expand-lg navbar-dark fixed-top">
             <a class="navbar-brand text-white fs-3 fw-bold" href="#">
                 <img src="assets/imgs/logo_header.png" alt="" role="presentation" class="d-inline-block align-top">
                 RoadMaker
