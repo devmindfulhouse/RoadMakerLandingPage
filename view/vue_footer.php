@@ -4,8 +4,8 @@
             <img src="assets/imgs/logo_header.png" alt="" role="presentation" class="me-2">
             <h1 class="fw-bold fs-3">RoadMaker</h1>
         </div>
-        <div class="footer--container__menu d-flex align-items-center gap-2">
-            <a href="index.php?section=mentions_legales" class="">Mentions légales</a>
+        <div class="navbar-nav ms-sm-3 ms-lg-auto d-flex align-items-center">
+            <a class="nav-link text-white" href="index.php?section=mentions_legales">Mentions légales</a>
         </div>
     </div>
 </footer>
