@@ -4,6 +4,7 @@
 include_once('view/vue_entete.php')
 
 ?>
+            <!--
             <div class="slider--container">
                 <img src="assets/imgs/mans_innovation_mans_sonorejpg.jpg" alt="" role="presentation" class="img__slider active">
                 <img src="assets/imgs/placeholder.webp" alt="" role="presentation" class="img__slider">
@@ -20,16 +21,27 @@ include_once('view/vue_entete.php')
                     <i class="fa-solid fa-circle slider_dot"></i>
                 </div>
             </div>
-            <article class="solution--container py-5" id="solution">
-                <h1 class="fw-bolder fs-2  ms-1 text-white d-flex justify-content-center mb-3">La solution</h1>
-                <p class="fw-semibold text-white text-wrap mx-3 text-center ">RoadMaker est une solution numérique pour la gamification des parcours d’intégration (onboarding, pré-boarding, formation, teambuilding…).</p>
-                <p class="fw-semibold text-white text-wrap mx-3 text-center ">Ces parcours sont destinés à être implémentés pour des managers, des formateurs, des acteurs du développement pédagogique et culturel des territoires entre autres.</p>
-                <p class="fw-semibold text-white text-wrap mx-4 text-center ">En outre, la solution RoadMaker est réfléchie pour permettre à ces acteurs de transmettre des informations qualifiées d’une manière ludique, à travers un support numérique (smartphone, tablette) et surtout sans avoir de compétences en programmation ni en développement.</p>
+            -->
 
-                <div class="d-flex justify-content-center mt-4">
-                    <button type="button" class="button__solution bg-white border-0 p-2 text-center rounded rounded-pill fs-6 fw-bold">Réserver une démo</button>
+            <section class="" id="solution">
+                <div class="bg-white solution--container px-4">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <p class="caption--text fs-6">AVEC ROADMAKER</p>
+                            <h1 class="fw-bold mb-3">Réinventez
+                                vos parcours touristiques </h1>
+                            <p class="fs-5 mb-4">Transformez vos circuits en balades interactives et offrez une expérience immersive à vos clients.</p>
+                            <div class="d-flex flex-column flex-md-row g-sm-2">
+                                <a href="#" class="button__reservation text-white border-0 py-3 px-5 rounded-2 fs-6 fw-semibold me-4 w-100 w-md-auto mb-2 mb-md-0 text-center text-decoration-none" role="button">Réserver une démo</a>
+                                <a href="#" class="button__details text-black border-0 py-3 px-5 rounded-2 fs-6 fw-semibold bg-white w-100 w-md-auto text-center text-decoration-none" role="button">Plus de détails</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 d-flex align-items-center justify-content-center">
+                            <img src="assets/imgs/Logo.png" class="d-none d-md-block" alt="Logo">
+                        </div>
+                    </div>
                 </div>
-            </article>
+            </section>
             <section id="specificities">
                 <div class="d-flex flex-column flex-lg-row gap-md-3  px-4 py-5  ">
                     <div class="argument--container__item d-flex flex-column align-items-center text-center">
@@ -208,5 +220,3 @@ include_once('view/vue_footer.php')
                 emailjs.init("FQqiYv2tNHs-Gfnz7");
             })();
             </script>
-        </body>
-    </html>
