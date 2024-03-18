@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Inter";
-  src: url("../font/Inter-VariableFont_slnt\,wght.ttf");
+  src: url("../vue/font/Inter-VariableFont_slnt\,wght.ttf");
 }
 
 :root {
-  --main-color: #63bad9;
+  --main-color: #00b6f0;
   --main-font: "Inter", sans-serif;
   --second-color: #eb5d17;
   --backToTop-bg-color: #227e9e;
@@ -24,33 +24,10 @@ body {
 /*==================== NAVBAR ====================*/
 .navbar--container {
   background-color: var(--main-color);
+
 }
 
-.navbar--container__menu a {
-  color: white;
-  text-decoration: none;
-  font-weight: 500;
-  position: relative;
-  overflow: hidden;
-}
 
-.navbar--container__menu a::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 1.5px;
-  bottom: 0;
-  left: 0;
-  background-color: white;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
-
-.navbar--container__menu a:hover::after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
 
 /*==================== SLIDER ====================*/
 
