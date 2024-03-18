@@ -24,15 +24,15 @@
 <!-- End Google Tag Manager (noscript) -->
 
 <nav class="navbar--container navbar navbar-expand-lg navbar-dark fixed-top">
-            <a class="navbar-brand text-white fs-3 fw-bold" href="#">
+            <a class="navbar-brand text-white fs-3 fw-bold ms-3" href="#">
                 <img src="assets/imgs/logo_header.png" alt="" role="presentation" class="d-inline-block align-top">
                 RoadMaker
             </a>
-        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler border-0 me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon text-light"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ms-sm-3 ms-lg-auto">
                 <li class="nav-item">
                     <a class="nav-link text-white" aria-current="page" href="index.php#solution">La solution</a>
                 </li>
@@ -48,11 +48,10 @@
                 <li class="nav-item">
                     <a class="nav-link text-white" href="index.php#partners">Les partenaires</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item me-lg-2">
                     <a class="nav-link text-white" href="index.php#contact">Contact</a>
                 </li>
             </ul>
-
         </div>
 </nav>
 

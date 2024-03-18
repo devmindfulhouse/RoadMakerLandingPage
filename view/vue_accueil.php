@@ -4,8 +4,6 @@
 include_once('view/vue_entete.php')
 
 ?>
-
-
             <div class="slider--container">
                 <img src="assets/imgs/mans_innovation_mans_sonorejpg.jpg" alt="" role="presentation" class="img__slider active">
                 <img src="assets/imgs/placeholder.webp" alt="" role="presentation" class="img__slider">
@@ -21,8 +19,6 @@ include_once('view/vue_entete.php')
                     <i class="fa-solid fa-circle slider_dot"></i>
                     <i class="fa-solid fa-circle slider_dot"></i>
                 </div>
-
-
             </div>
             <article class="solution--container py-5" id="solution">
                 <h1 class="fw-bolder fs-2  ms-1 text-white d-flex justify-content-center mb-3">La solution</h1>
@@ -192,22 +188,16 @@ include_once('view/vue_entete.php')
                 </div>
             </dialog>
 
+<?php
+
+include_once('view/vue_footer.php')
+
+?>
 
 
-            <footer>
-                <div class="footer--container d-flex justify-content-between flex-column align-items-center flex-column flex-lg-row p-3 py-4">
-                    <div class="footer--container__logo d-flex align-items-center text-white">
-                        <img src="assets/imgs/logo_header.png" alt="" role="presentation" class="me-2">
-                        <h1 class="fw-bold fs-3">RoadMaker</h1>
-                    </div>
-                    <div class="footer--container__menu d-flex align-items-center gap-2">
-                        <a href="index.php?section=mentions_legales" class="">Mentions légales</a>
-                    </div>
-                </div>
-            </footer>
 
 
-            <button id="back-to-top" title="Back to the top" class="position-fixed  justify-content-center text-center p-2"><i class="fa-solid fa-arrow-up"></i></button>
+            <!--<button id="back-to-top" title="Back to the top" class="position-fixed  justify-content-center text-center p-2"><i class="fa-solid fa-arrow-up"></i></button>-->
             <script src="assets/js/app.js"></script>
             <script src="assets/js/sendEmail.js"></script>
             <script type="text/javascript"
