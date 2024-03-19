@@ -23,6 +23,7 @@ include_once('view/vue_entete.php')
             </div>
             -->
 
+        <!--Section Hero-->
             <section class="" id="solution">
                 <div class="bg-white solution--container px-4">
                     <div class="row">
@@ -42,134 +43,234 @@ include_once('view/vue_entete.php')
                     </div>
                 </div>
             </section>
+
+        <!--Section Specificities-->
             <section id="specificities">
-                <div class="d-flex flex-column flex-lg-row gap-md-3  px-4 py-5  ">
-                    <div class="argument--container__item d-flex flex-column align-items-center text-center">
-                        <i class="fa-solid fa-puzzle-piece mb-2 pt-3 "></i>
-                        <h2 class="fs-3 fw-bolder mb-2 text-wrap mx-2">Conception de vos propres parcours</h2>
-                        <p class="fs-6 fw-normal mb-1 text-wrap mx-2">La mise en place d'une interface simple permet avec des copie/coller ou des glisser/déposer de créer son propre parcours à partir de la localisation GPS ou de scan de QR code.</p>
+                <div class="d-flex flex-column flex-lg-row gap-md-3 px-4 py-5  ">
+                    <div class="argument--container__item d-flex flex-column align-items-center text-center col">
+                        <i class="fa-solid fa-location-dot mb-2 pt-3 "></i>
+                        <h2 class="fs-3 fw-bolder mb-2 text-wrap mx-2">Conception de vos propres parcours digitaux</h2>
+                        <p class="fs-6 fw-normal mb-1 text-wrap mx-2">Une interface intuitive pour structurer votre parcours avec des points d'intérêt personnalisés.</p>
                     </div>
-                    <div class="argument--container__item d-flex flex-column align-items-center text-center">
-                        <i class="fa-solid fa-database  mb-2 pt-3 "></i>
-                        <h2 class="fs-3 fw-bolder mb-2 text-wrap mx-2">Accès à la data par des tableaux de bord</h2>
-                        <p class="fs-6 fw-normal mb-1 text-wrap mx-2">Les utilisateurs ont accès à une interface dédiée pour permettre de créer les parcours et récupérer l'ensemble des informations des participants et usagers.</p>
+                    <div class="argument--container__item d-flex flex-column align-items-center text-center col">
+                        <i class="fa-solid fa-box-archive  mb-2 pt-3 "></i>
+                        <h2 class="fs-3 fw-bolder mb-2 text-wrap mx-2">Gardez une trace de vos parcours digitaux</h2>
+                        <p class="fs-6 fw-normal mb-1 text-wrap mx-2">Archivez et suivez votre progression à travers vos parcours digitaux.</p>
                     </div>
-                    <div class="argument--container__item d-flex flex-column align-items-center text-center">
-                        <i class="fa-solid fa-compass mb-2 pt-3 "></i>
-                        <h2 class="fs-3 fw-bolder mb-2 text-wrap mx-2">Capter et orienter le public à des fins pédagogiques</h2>
-                        <p class="fs-6 fw-normal mb-1 text-wrap mx-2">Les projets pédagogiques générés dans la solution JEMos permettent aux utilisateurs de valider, comprendre, découvrir des informations à partir d'un lieu défini sur la carte.</p>
+                    <div class="argument--container__item d-flex flex-column align-items-center text-center col">
+                        <i class="fa-solid fa-vr-cardboard mb-2 pt-3 "></i>
+                        <h2 class="fs-3 fw-bolder mb-2 text-wrap mx-2">Vivez une expérience immersive gamifiée en Réalité Augmentée</h2>
+                        <p class="fs-6 fw-normal mb-1 text-wrap mx-2">Combinez jeu et réalité augmentée pour un parcours interactif et immersif.
+                        </p>
                     </div>
+                    <!--
                     <div class="argument--container__item d-flex flex-column align-items-center text-center">
                         <i class="fa-solid fa-person-rays mb-2 pt-3 "></i>
                         <h2 class="fs-3 fw-bolder mb-2 text-wrap mx-2">Une solution agile pour s'adapter aux utilisateurs</h2>
                         <p class="fs-6 fw-normal mb-1 text-wrap mx-2">Quelque soit l'objectif du créateur de parcours dans la solution JEMos, les nombreuses fonctionnalités de création permettent de répondre aux besoins sans être un expert en informatique.</p>
                     </div>
+                    -->
                 </div>
             </section>
+
+        <!--Section Usage-->
             <section class="usage--container my-2 p-2" id="usages">
-                <h1 class="text-white fw-bolder text-center my-3 mb-sm-4 fs-2 ">Les premiers usages de la solution RoadMaker </h1>
-                <div class="usage--container__pictures d-flex justify-content-around my-2 flex-column flex-lg-row">
+                <h1 class=" fw-bolder text-center my-3 mb-6 mb-md-5 fs-2">Le principe est simple </h1>
+                <div class="usage--container__pictures d-flex justify-content-around my-2 flex-column flex-lg-row mt-5">
+                    <!--
                     <div class="usage--container__pictures__item d-flex flex-column align-items-center mb-sm-4">
                         <img src="assets/imgs/CAMPUS-EXPRESS.jpg" alt="" role="presentation" class="rounded-4 w-100 w-lg-50">
-                        <h3 class="text-white text-wrap fw-bold text-align-center fs-5 mt-2">Expérimentation Campus Express</h3>
+                        <h3 class="text-wrap fw-bold text-align-center fs-5 mt-2">Expérimentation Campus Express</h3>
                     </div>
+                    -->
+                    <div class="usage--container__pictures__item d-flex flex-column align-items-center mb-5">
+                        <img src="assets/imgs/startup-illu.webp" alt="" role="presentation" class="rounded-4 w-75 w-lg-50">
+                        <h3 class="text-wrap fw-bold text-align-center fs-5 mt-3">Créer vos parcours sur RoadMaker</h3>
+                    </div>
+                    <div class="usage--container__pictures__item d-flex flex-column align-items-center mb-5">
+                        <img src="assets/imgs/smartphone-illu.webp" alt="" role="presentation" class="rounded-4 w-75 w-lg-50">
+                        <h3 class="text-wrap fw-bold text-align-center fs-5 mt-3">Déployer votre circuit sur RoadBook</h3>
+                    </div>
+                    <div class="usage--container__pictures__item d-flex flex-column align-items-center mb-5">
+                        <img src="assets/imgs/friends-illu.webp" alt="" role="presentation" class="rounded-4 w-75 w-lg-50">
+                        <h3 class="text-wrap fw-bold text-align-center fs-5 mt-3">Faites profiter vos clients</h3>
+                    </div>
+                    <!--
                     <div class="usage--container__pictures__item d-flex flex-column align-items-center">
                         <div class="video--iframe rounded-4 w-100 mt-3 mt-lg-0">
                             <iframe class="rounded-4 w-100 w-lg-50" src="https://www.youtube.com/embed/Lq98waDaXRE?si=GODCznr3r7DPaOgL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
-                        <h3 class="text-white text-wrap fw-bold text-center fs-5 mt-2"> Intégration à la bibliothèque universitaire du Mans <br>grâce à RoadMaker </h3>
+                        <h3 class="text-wrap fw-bold text-center fs-5 mt-2"> Intégration à la bibliothèque universitaire du Mans <br>grâce à RoadMaker </h3>
                     </div>
+                    -->
                 </div>
             </section>
-            <section class="target--container" id="target_application">
-                <h1 class=" fw-bolder text-center my-4 mx-4 fs-2 ">Les secteurs d'applications de la solution RoadMaker</h1>
-                <div class="d-flex justify-content-around p-2 mt-3 flex-column flex-lg-row">
 
-                    <div class="target--application__item d-flex flex-column align-items-center text-center">
-                        <img src="assets/imgs/workerhouse.jpg" alt="" role="presentation" class="rounded-3  mb-2">
-                        <h3 class="fw-bold mb-2 text-wrap mx-2">Formation professionnelle sur site</h3>
-                        <p class="fw-normal mb-5 mb-lg-1  text-wrap mx-3">La formation professionnelle est une préoccupation permanente pour maintenir les salariés en veille et le niveau de performance. C'est pourquoi, la mise en place de parcours RoadMaker sur le site va inciter de manière ludique les équipes à prendre de l'information de manière quotidienne.</p>
+        <!--Section Target Application-->
+            <section class="target--container" id="target_application">
+                <h1 class=" fw-bolder text-center mb-5 mt-4 mx-4 fs-2 ">Pourquoi RoadMaker ? </h1>
+                <div class="d-flex justify-content-around p-2 mt-3 flex-column flex-lg-row align-items-stretch mx-4">
+
+                    <div class="target--application__item d-flex flex-column align-items-center text-center col mb-3">
+                        <div class="icon-circle d-flex justify-content-center align-items-center mb-2">
+                            <i class="fa-solid fa-scissors"></i>
+                        </div>
+                        <h3 class="fw-bold mb-2 text-wrap mx-2">Pour une expérience de navigation sur mesure</h3>
+                        <p class="fw-normal text-wrap mx-3">Créez des parcours numériques adaptés à vos besoins spécifiques.</p>
                     </div>
-                    <div class="target--application__item d-flex flex-column align-items-center text-center">
-                        <img src="assets/imgs/austincompany.jpg" alt="" role="presentation" class="rounded-3  mb-2">
-                        <h3  class="fw-bold mb-2 text-wrap mx-2">Evénementiel d'entreprise</h3>
-                        <p class="fw-normal  mb-5 mb-lg-1 text-wrap mx-3">La notion de partage et d'interaction pour ainsi créer un effet de groupe est l'un des atouts de la solution RoadMaker. Ainsi, vous pouvez créer un parcours de team building coopératif pour permettre à vos équipes de créer du lien tout en apportant un contenu pédagogique en lien avec l'entreprise.</p>
+                    <div class="target--application__item d-flex flex-column align-items-center text-center col mb-3">
+                        <div class="icon-circle d-flex justify-content-center align-items-center mb-2">
+                            <i class="fa-solid fa-vr-cardboard"></i>
+                        </div>
+                        <h3  class="fw-bold mb-2 text-wrap mx-2">Expérience immersive grâce à la Réalité Augmentée et Mixte</h3>
+                        <p class="fw-normal text-wrap mx-3">Plongez vos visiteurs dans un univers enrichi par la réalité augmentée et mixte.</p>
                     </div>
-                    <div class="target--application__item d-flex flex-column align-items-center text-center">
-                        <img src="assets/imgs/industry.jpg" alt="" role="presentation" class="rounded-3  mb-2">
-                        <h3  class="fw-bold mb-2 text-wrap mx-2">Sécurité et qualité industrielle</h3>
-                        <p class="fw-normal  text-wrap mx-3">La solution RoadMaker va permettre de proposer aux travailleurs de site industriel de créer des parcours d'intégration des salariés pour ainsi mettre en avant les risques sécuritaires le site. En conséquence, c'est une manière ludique d'intégrer le personnel et accélérer sa prise de poste en sécurité.</p>
+
+                    <div class="target--application__item d-flex flex-column align-items-center text-center col mb-3">
+                        <div class="icon-circle d-flex justify-content-center align-items-center mb-2">
+                            <i class="fa-solid fa-lightbulb"></i>
+                        </div>
+                        <h3  class="fw-bold mb-2 text-wrap mx-2">La solution idéale pour accélérer votre transition numérique</h3>
+                        <p class="fw-normal  text-wrap mx-3">Adoptez une plateforme intuitive pour une transformation numérique réussie.</p>
                     </div>
                 </div>
-                <div class="d-flex justify-content-around p-2 my-5 flex-column flex-lg-row">
-                    <div class="target--application__item d-flex flex-column align-items-center text-center">
-                        <img src="assets/imgs/museum.jpg" alt="" role="presentation" class="rounded-3  mb-2">
-                        <h3  class="fw-bold mb-2 text-wrap mx-2">Tourisme et lieux culturels</h3>
-                        <p class="fw-normal mb-5 mb-lg-1 text-wrap mx-3">Permettre à des visiteurs de s'approprier un lieu de manière ludique en gardant l'aspect pédagogique. Ainsi, il est aussi possible de mettre en avant un site spécifique pour une mise en valeur renforcée.</p>
+                <div class="d-flex justify-content-around p-2  mt-2 mb-5 flex-column flex-lg-row align-items-stretch">
+                    <div class="target--application__item d-flex flex-column align-items-center text-center col mb-3">
+                        <!--<img src="assets/imgs/museum.jpg" alt="" role="presentation" class="rounded-3  mb-2">-->
+                        <div class="icon-circle d-flex justify-content-center align-items-center mb-2">
+                            <i class="fa-solid fa-cloud"></i>
+                        </div>
+                        <h3  class="fw-bold mb-2 text-wrap mx-2">Digitaliser les parcours</h3>
+                        <p class="fw-normal text-wrap mx-3">Offrez une expérience numérique immersive à vos visiteurs.</p>
                     </div>
-                    <div class="target--application__item d-flex flex-column align-items-center text-center">
-                        <img src="assets/imgs/scholar.jpg" alt="" role="presentation" class="rounded-3  mb-2">
-                        <h3  class="fw-bold mb-2 text-wrap mx-2">Education et Pédagogie d'apprentissage</h3>
-                        <p class="fw-normal text-wrap mx-3">Les enseignants peuvent utiliser la solution RoadMaker pour apporter une innovation pédagogique et ludique à leurs enseignements. D'autre part c'est un moyen de créer un lien renforcé avec et entre les étudiants.</p>
+                    <div class="target--application__item d-flex flex-column align-items-center text-center col mb-3">
+                        <!--<img src="assets/imgs/scholar.jpg" alt="" role="presentation" class="rounded-3  mb-2">-->
+                        <div class="icon-circle d-flex justify-content-center align-items-center mb-2">
+                            <i class="fa-solid fa-gamepad"></i>
+                        </div>
+                        <h3  class="fw-bold mb-2 text-wrap mx-2">Gamifier</h3>
+                        <p class="fw-normal text-wrap mx-3">Rendez vos parcours ludiques et engageants grâce à la gamification.</p>
                     </div>
-                </div>
-            </section>
-            <section class="partners--section py-4" id="partners">
-                <h3 class="fw-bold fs-2 text-center text-white pb-4">Ils nous font déjà confiance</h3>
-                <div class="d-flex justify-content-around flex-column flex-lg-row mx-4">
-                    <div class="d-flex flex-column flex-lg-row gap-lg-5 justify-content-around">
-                        <div class="card rounded-3 bg-white mb-2 p-2 h-100 w-100 w-lg-50  partners--container__card">
-                            <img src="assets/imgs/le-mans-universite-logo.png" class="img-fluid mx-auto d-block w-100 h-100" alt="...">
-                            <div class="card-body text-center fw-bold ">
-                                <p class="card-text">Notre partenaire terrain</p>
-                            </div>
+                    <div class="target--application__item d-flex flex-column align-items-center text-center col mb-3">
+                        <!--<img src="assets/imgs/austincompany.jpg" alt="" role="presentation" class="rounded-3  mb-2">-->
+                        <div class="icon-circle d-flex justify-content-center align-items-center mb-2">
+                            <i class="fa-solid fa-pen-to-square"></i>
                         </div>
-                        <div class="card rounded-3 bg-white mb-2 p-2 h-100 w-100 w partners--container__card">
-                            <img src="assets/imgs/PEPS.png" class="img-fluid mx-auto d-block  w-100 h-100" alt="...">
-                            <div class="card-body text-center fw-bold ">
-                                <p class="card-text">Notre première récompense</p>
-                            </div>
-                        </div>
-                        <div class="card rounded-3 bg-white mb-2 p-2 h-100 w-100 w-lg-50 partners--container__card text-center">
-                            <img src="assets/imgs/ccc.png" class="img-fluid mx-auto d-block  w-75 h-100" alt="...">
-                            <div class="card-body text-center fw-bold">
-                                <p class="card-text">Notre partenaire institutionnel</p>
-                            </div>
-                        </div>
+                        <h3  class="fw-bold mb-2 text-wrap mx-2">Personnalisez vos ressources</h3>
+                        <p class="fw-normal text-wrap mx-3">Enrichissez votre contenu avec des ressources personnalisées et ciblées.</p>
                     </div>
-                </div>
-            </section>
-            <section id="contact">
-                <div class="d-flex flex-column align-items-center my-4">
-                    <div class="contact--container__header text-center mb-3">
-                        <h1 class="fw-bold text-center fs-2">Contactez-nous</h1>
-                        <p class="fs-6 text-center text-wrap mx-3">Pour tout complément d'information ou question, n'hésitez pas à nous envoyer un message avec vos cordonnées. Notre équipe vous contactera rapidement</p>
-                    </div>
-                    <form action="" class="contact--container__form w-75 d-flex flex-column rounded-3 " onsubmit="sendEmail(event)">
-                        <div class="">
-                            <div class="contact--container__form__item d-flex flex-column align-items-start my-3 mx-3">
-                                <label for="name" class="text-white fw-bold mb-2">Nom :</label>
-                                <input type="text" name="name" id="name" placeholder="Votre nom" class="w-100 p-2 rounded-4 border-0 " required>
-                            </div>
-                            <div class="contact--container__form__item d-flex flex-column align-items-start my-3 mx-3">
-                                <label for="email" class="text-white fw-bold mb-2">Email :</label>
-                                <input type="email" name="email" id="email" placeholder="Votre email"  class="w-100 p-2 rounded-4 border-0  "required>
-                            </div>
-                            <div class="contact--container__form__item d-flex flex-column align-items-start my-3 mx-3">
-                                <label for="subject" class="text-white fw-bold mb-2">Sujet du mail :</label>
-                                <input type="text" name="subject" id="subject" placeholder="Votre sujet"  class="w-100 p-2 rounded-4 border-0 "required>
-                            </div>
-                            <div class="contact--container__form__item d-flex flex-column align-items-start my-3 mx-3">
-                                <label for="message" class="text-white fw-bold mb-2">Message :</label>
-                                <textarea name="message" id="message" cols="30" rows="10" placeholder="Votre message"  class="w-100 p-2 rounded-4 border-0 "required></textarea>
-                            </div>
-                        </div>
-                        <div class="contact--container__button d-flex justify-content-center mb-3">
-                            <button type="submit" class="button__contact text-white border-0 py-2 px-5 rounded-pill fs-6 fw-semibold " id="openModal">Envoyer</button>
-                        </div>
-                    </form>
                 </div>
             </section>
+
+    <!-- Section Partners -->
+            <section class="py-4 partners--section mb-5" id="partners">
+                <h3 class="fw-bold fs-2 text-center pb-4">Nos partenaires</h3>
+                <div id="carouselPartners" class="carousel carousel-dark slide w-75 h-75 mx-auto shadow-lg ">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselPartners" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselPartners" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselPartners" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselPartners" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselPartners" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <img src="assets/imgs/logo_ouest_valo.webp" class="d-block w-100" alt="...">
+
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="assets/imgs/logo_lmi.webp" class="d-block w-100" alt="...">
+
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/imgs/logo_inpi.webp" class="d-block w-100" alt="Logo INPI">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/imgs/logo-e-car-passion.webp" class="d-block w-100" alt="Logo eCar Passions">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/imgs/logo_ecoMobileLoisirs.webp" class="d-block w-100" alt="Logo EcoMobileLoisirs">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPartners" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselPartners" data-bs-slide="next">
+                        <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+
+
+
+    <!-- Section Trust -->
+        <section class="py-4 partners--section" id="partners">
+            <h3 class="fw-bold fs-2 text-center pb-4">Ils nous font déjà confiance</h3>
+            <div id="carouselTrust" class="carousel carousel-dark slide w-75 h-75 mx-auto shadow-lg ">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselTrust" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselTrust" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselTrust" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="assets/imgs/logo_lemansville.webp" class="d-block w-100" alt="Logo Le Mans Ville">
+
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="assets/imgs/logo_leMansMetropole.webp" class="d-block w-100" alt="Logo Le Mans Métropole">
+
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/imgs/logo_sartheTourisme.webp" class="d-block w-100" alt="Logo Sarthe Tourisme">
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselTrust" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselTrust" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+
+                <section id="contact">
+                    <div class="d-flex flex-column align-items-center my-4">
+                        <div class="contact--container__header text-center mb-3">
+                            <h1 class="fw-bold text-center fs-2">Contactez-nous</h1>
+                            <p class="fs-6 text-center text-wrap mx-3">Pour tout complément d'information ou question, n'hésitez pas à nous envoyer un message avec vos cordonnées. Notre équipe vous contactera rapidement</p>
+                        </div>
+                        <form action="" class="contact--container__form w-75 d-flex flex-column rounded-3 " onsubmit="sendEmail(event)">
+                            <div class="">
+                                <div class="contact--container__form__item d-flex flex-column align-items-start my-3 mx-3">
+                                    <label for="name" class="text-white fw-bold mb-2">Nom :</label>
+                                    <input type="text" name="name" id="name" placeholder="Votre nom" class="w-100 p-2 rounded-4 border-0 " required>
+                                </div>
+                                <div class="contact--container__form__item d-flex flex-column align-items-start my-3 mx-3">
+                                    <label for="email" class="text-white fw-bold mb-2">Email :</label>
+                                    <input type="email" name="email" id="email" placeholder="Votre email"  class="w-100 p-2 rounded-4 border-0  "required>
+                                </div>
+                                <div class="contact--container__form__item d-flex flex-column align-items-start my-3 mx-3">
+                                    <label for="subject" class="text-white fw-bold mb-2">Sujet du mail :</label>
+                                    <input type="text" name="subject" id="subject" placeholder="Votre sujet"  class="w-100 p-2 rounded-4 border-0 "required>
+                                </div>
+                                <div class="contact--container__form__item d-flex flex-column align-items-start my-3 mx-3">
+                                    <label for="message" class="text-white fw-bold mb-2">Message :</label>
+                                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Votre message"  class="w-100 p-2 rounded-4 border-0 "required></textarea>
+                                </div>
+                            </div>
+                            <div class="contact--container__button d-flex justify-content-center mb-3">
+                                <button type="submit" class="button__contact text-white border-0 py-2 px-5 rounded-pill fs-6 fw-semibold " id="openModal">Envoyer</button>
+                            </div>
+                        </form>
+                    </div>
+                </section>
 
             <!--Loading Modal-->
             <dialog class="loading__modal justify-content-center align-items-center flex-column rounded-4 text-center" id="loading__modal">
