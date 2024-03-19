@@ -51,7 +51,7 @@ body {
 
 
 /*==================== SLIDER ====================*/
-
+/*
 .slider--container {
   position: relative;
   height: 80vh;
@@ -116,6 +116,8 @@ body {
   left: 1rem;
 }
 
+ */
+
 /*==================== SOLUTION ====================*/
 .solution--container {
   margin-top: 100px;
@@ -129,9 +131,9 @@ body {
 .caption--text::before {
   content: "";
   display: inline-block;
-  width: 40px; /* Ajustez la largeur du trait ici */
-  height: 3px; /* Ajustez l'épaisseur du trait ici */
-  background-color: var(--main-color); /* Ajustez la couleur du trait ici */
+  width: 40px;
+  height: 3px;
+  background-color: var(--main-color);
   margin-right: 10px;
   margin-bottom: 5px;
 
@@ -472,9 +474,9 @@ textarea {
   color: white;
   padding: 2rem;
   font-size: 2.5rem;
-  border-radius: 50%; /* rend le cercle parfait */
-  width: 2rem; /* définir une largeur */
-  height: 2rem; /* définir une hauteur */
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -500,9 +502,9 @@ textarea {
   color: white;
   padding: 2rem;
   font-size: 2.5rem;
-  border-radius: 50%; /* rend le cercle parfait */
-  width: 2rem; /* définir une largeur */
-  height: 2rem; /* définir une hauteur */
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -539,13 +541,22 @@ textarea {
     height: 300px;
   }
 
+  .nav-link::before {
+    content: none;
+  }
+
+  .nav-link:hover::before {
+    left: -100%;
+  }
+
+
 
 
 }
 
 @media (min-width: 992px) {
   .nav-link a::before {
-    width: 30%; /* Modifiez cette valeur en fonction de vos besoins */
+    width: 30%;
 
   }
 
@@ -561,3 +572,13 @@ textarea {
 
 /*==================== ANIMATION ====================*/
 
+
+/* Dans votre fichier CSS */
+.animate-on-scroll {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.animate-on-scroll.visible {
+  opacity: 1;
+}

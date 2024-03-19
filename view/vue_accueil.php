@@ -1,10 +1,11 @@
 
-<?php
+        <?php
 
-include_once('view/vue_entete.php')
+        include_once('view/vue_entete.php')
 
-?>
-            <!--
+        ?>
+
+        <!--
             <div class="slider--container">
                 <img src="assets/imgs/mans_innovation_mans_sonorejpg.jpg" alt="" role="presentation" class="img__slider active">
                 <img src="assets/imgs/placeholder.webp" alt="" role="presentation" class="img__slider">
@@ -25,7 +26,7 @@ include_once('view/vue_entete.php')
 
         <!--Section Hero-->
             <section class="" id="solution">
-                <div class="bg-white solution--container px-4">
+                <div class="animate-on-scroll bg-white solution--container px-4">
                     <div class="row">
                         <div class="col-12 col-md-6">
                             <p class="caption--text fs-6">AVEC ROADMAKER</p>
@@ -46,7 +47,7 @@ include_once('view/vue_entete.php')
 
         <!--Section Specificities-->
             <section id="specificities">
-                <div class="d-flex flex-column flex-lg-row gap-md-3 px-4 py-5  ">
+                <div class="animate-on-scroll  d-flex flex-column flex-lg-row gap-md-3 px-4 py-5  ">
                     <div class="argument--container__item d-flex flex-column align-items-center text-center col">
                         <i class="fa-solid fa-location-dot mb-2 pt-3 "></i>
                         <h2 class="fs-3 fw-bolder mb-2 text-wrap mx-2">Conception de vos propres parcours digitaux</h2>
@@ -75,8 +76,8 @@ include_once('view/vue_entete.php')
 
         <!--Section Usage-->
             <section class="usage--container my-2 p-2" id="usages">
-                <h1 class=" fw-bolder text-center my-3 mb-6 mb-md-5 fs-2">Le principe est simple </h1>
-                <div class="usage--container__pictures d-flex justify-content-around my-2 flex-column flex-lg-row mt-5">
+                <h1 class=" animate-on-scroll  fw-bolder text-center my-3 mb-6 mb-md-5 fs-2">Le principe est simple </h1>
+                <div class="animate-on-scroll  usage--container__pictures d-flex justify-content-around my-2 flex-column flex-lg-row mt-5">
                     <!--
                     <div class="usage--container__pictures__item d-flex flex-column align-items-center mb-sm-4">
                         <img src="assets/imgs/CAMPUS-EXPRESS.jpg" alt="" role="presentation" class="rounded-4 w-100 w-lg-50">
@@ -108,8 +109,8 @@ include_once('view/vue_entete.php')
 
         <!--Section Target Application-->
             <section class="target--container" id="target_application">
-                <h1 class=" fw-bolder text-center mb-5 mt-4 mx-4 fs-2 ">Pourquoi RoadMaker ? </h1>
-                <div class="d-flex justify-content-around p-2 mt-3 flex-column flex-lg-row align-items-stretch mx-4">
+                <h1 class=" animate-on-scroll  fw-bolder text-center mb-5 mt-4 mx-4 fs-2 ">Pourquoi RoadMaker ? </h1>
+                <div class="animate-on-scroll  d-flex justify-content-around p-2 mt-3 flex-column flex-lg-row align-items-stretch mx-4">
 
                     <div class="target--application__item d-flex flex-column align-items-center text-center col mb-3">
                         <div class="icon-circle d-flex justify-content-center align-items-center mb-2">
@@ -134,7 +135,7 @@ include_once('view/vue_entete.php')
                         <p class="fw-normal  text-wrap mx-3">Adoptez une plateforme intuitive pour une transformation numérique réussie.</p>
                     </div>
                 </div>
-                <div class="d-flex justify-content-around p-2  mt-2 mb-5 flex-column flex-lg-row align-items-stretch">
+                <div class="animate-on-scroll  d-flex justify-content-around p-2  mt-2 mb-5 flex-column flex-lg-row align-items-stretch">
                     <div class="target--application__item d-flex flex-column align-items-center text-center col mb-3">
                         <!--<img src="assets/imgs/museum.jpg" alt="" role="presentation" class="rounded-3  mb-2">-->
                         <div class="icon-circle d-flex justify-content-center align-items-center mb-2">
@@ -162,10 +163,10 @@ include_once('view/vue_entete.php')
                 </div>
             </section>
 
-    <!-- Section Partners -->
+     <!-- Section Partners -->
             <section class="py-4 partners--section mb-5" id="partners">
-                <h3 class="fw-bold fs-2 text-center pb-4">Nos partenaires</h3>
-                <div id="carouselPartners" class="carousel carousel-dark slide w-75 h-75 mx-auto shadow-lg ">
+                <h3 class="animate-on-scroll  fw-bold fs-2 text-center pb-4">Nos partenaires</h3>
+                <div id="carouselPartners" class="animate-on-scroll  carousel carousel-dark slide w-75 h-75 mx-auto shadow-lg ">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselPartners" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselPartners" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -205,44 +206,46 @@ include_once('view/vue_entete.php')
 
 
 
-    <!-- Section Trust -->
-        <section class="py-4 partners--section" id="partners">
-            <h3 class="fw-bold fs-2 text-center pb-4">Ils nous font déjà confiance</h3>
-            <div id="carouselTrust" class="carousel carousel-dark slide w-75 h-75 mx-auto shadow-lg ">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselTrust" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselTrust" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselTrust" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <!-- Section Trust -->
+            <section class="py-4 partners--section" id="partners">
+                <h3 class="animate-on-scroll  fw-bold fs-2 text-center pb-4">Ils nous font déjà confiance</h3>
+                <div id="  carouselTrust" class="animate-on-scroll carousel carousel-dark slide w-75 h-75 mx-auto shadow-lg ">
+
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselTrust" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselTrust" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselTrust" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="animate-on-scroll  carousel-inner">
+                            <div class="animate-on-scroll  carousel-item active" data-bs-interval="2000">
+                                <img src="assets/imgs/logo_lemansville.webp" class="d-block w-100" alt="Logo Le Mans Ville">
+
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="assets/imgs/logo_leMansMetropole.webp" class="d-block w-100" alt="Logo Le Mans Métropole">
+
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/imgs/logo_sartheTourisme.webp" class="d-block w-100" alt="Logo Sarthe Tourisme">
+                            </div>
+
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselTrust" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselTrust" data-bs-slide="next">
+                            <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="2000">
-                        <img src="assets/imgs/logo_lemansville.webp" class="d-block w-100" alt="Logo Le Mans Ville">
-
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <img src="assets/imgs/logo_leMansMetropole.webp" class="d-block w-100" alt="Logo Le Mans Métropole">
-
-                    </div>
-                    <div class="carousel-item">
-                        <img src="assets/imgs/logo_sartheTourisme.webp" class="d-block w-100" alt="Logo Sarthe Tourisme">
-                    </div>
-
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselTrust" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselTrust" data-bs-slide="next">
-                    <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </section>
+            </section>
 
 
         <!--Section Contact-->
-                <section id="contact">
-                    <div class="d-flex flex-column align-items-center my-4">
+            <section id="contact">
+                    <div class=" animate-on-scroll  d-flex flex-column align-items-center my-4">
                         <div class="contact--container__header text-center mb-3">
                             <h1 class="fw-bold text-center fs-2">Contactez-nous</h1>
                             <p class="fs-6 text-center text-wrap mx-3">Pour tout complément d'information ou question, n'hésitez pas à nous envoyer un message avec vos cordonnées. Notre équipe vous contactera rapidement</p>
@@ -302,23 +305,13 @@ include_once('view/vue_entete.php')
                 </div>
             </dialog>
 
-<?php
+            <?php
 
-include_once('view/vue_footer.php')
+            include_once('view/vue_footer.php')
 
-?>
+            ?>
 
 
 
 
             <!--<button id="back-to-top" title="Back to the top" class="position-fixed  justify-content-center text-center p-2"><i class="fa-solid fa-arrow-up"></i></button>-->
-            <script src="assets/js/app.js"></script>
-            <script src="assets/js/sendEmail.js"></script>
-            <script type="text/javascript"
-                src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-            </script>
-            <script type="text/javascript">
-            (function(){
-                emailjs.init("FQqiYv2tNHs-Gfnz7");
-            })();
-            </script>
