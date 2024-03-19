@@ -38,7 +38,7 @@ include_once('view/vue_entete.php')
                             </div>
                         </div>
                         <div class="col-md-6 d-flex align-items-center justify-content-center">
-                            <img src="assets/imgs/Logo.png" class="d-none d-md-block" alt="Logo">
+                            <img src="assets/imgs/Logo.webp" class="d-none d-md-block" alt="Logo">
                         </div>
                     </div>
                 </div>
@@ -240,6 +240,7 @@ include_once('view/vue_entete.php')
         </section>
 
 
+        <!--Section Contact-->
                 <section id="contact">
                     <div class="d-flex flex-column align-items-center my-4">
                         <div class="contact--container__header text-center mb-3">

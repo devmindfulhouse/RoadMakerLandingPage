@@ -25,7 +25,7 @@
 
 <nav class="navbar--container navbar navbar-expand-lg navbar-dark fixed-top">
             <a class="navbar-brand text-white fs-3 fw-bold ms-3" href="#">
-                <img src="assets/imgs/logo_header.png" alt="" role="presentation" class="d-inline-block align-top">
+                <img src="assets/imgs/logo_header.webp" alt="" role="presentation" class="d-inline-block align-top">
                 RoadMaker
             </a>
         <button class="navbar-toggler border-0 me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
