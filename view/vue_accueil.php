@@ -31,7 +31,7 @@
                         <div class="col-12 col-md-6">
                             <p class="caption--text fs-6">AVEC ROADMAKER</p>
                             <h1 class="fw-bold mb-3">Réinventez
-                                vos parcours touristiques </h1>
+                                vos parcours avec Road Maker ! </h1>
                             <p class="fs-5 mb-4">Transformez vos circuits en balades interactives et offrez une expérience immersive à vos clients.</p>
                             <div class="d-flex flex-column flex-md-row g-sm-2">
                                 <a href="#" class="button__reservation text-white border-0 py-3 px-5 rounded-2 fs-6 fw-semibold me-4 w-100 w-md-auto mb-2 mb-md-0 text-center text-decoration-none" role="button">Réserver une démo</a>
@@ -166,7 +166,7 @@
      <!-- Section Partners -->
             <section class="py-4 partners--section mb-5" id="partners">
                 <h3 class="animate-on-scroll  fw-bold fs-2 text-center pb-4">Nos partenaires</h3>
-                <div id="carouselPartners" class="animate-on-scroll  carousel carousel-dark slide w-75 h-75 mx-auto shadow-lg ">
+                <div id="carouselPartners" class="animate-on-scroll  carousel carousel-dark slide w-75 h-75 mx-auto shadow-lg " data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselPartners" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselPartners" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -175,21 +175,21 @@
                         <button type="button" data-bs-target="#carouselPartners" data-bs-slide-to="4" aria-label="Slide 5"></button>
                     </div>
                     <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="2000">
+                        <div class="carousel-item active" data-bs-interval="5000">
                             <img src="assets/imgs/logo_ouest_valo.webp" class="d-block w-100" alt="...">
 
                         </div>
-                        <div class="carousel-item" data-bs-interval="2000">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <img src="assets/imgs/logo_lmi.webp" class="d-block w-100" alt="...">
 
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <img src="assets/imgs/logo_inpi.webp" class="d-block w-100" alt="Logo INPI">
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <img src="assets/imgs/logo-e-car-passion.webp" class="d-block w-100" alt="Logo eCar Passions">
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <img src="assets/imgs/logo_ecoMobileLoisirs.webp" class="d-block w-100" alt="Logo EcoMobileLoisirs">
                         </div>
                     </div>
@@ -209,7 +209,7 @@
         <!-- Section Trust -->
             <section class="py-4 partners--section" id="partners">
                 <h3 class="animate-on-scroll  fw-bold fs-2 text-center pb-4">Ils nous font déjà confiance</h3>
-                <div id="  carouselTrust" class="animate-on-scroll carousel carousel-dark slide w-75 h-75 mx-auto shadow-lg ">
+                <div id="carouselTrust" class="animate-on-scroll carousel carousel-dark slide w-75 h-75 mx-auto shadow-lg " data-bs-ride="carousel">
 
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselTrust" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -217,15 +217,15 @@
                             <button type="button" data-bs-target="#carouselTrust" data-bs-slide-to="2" aria-label="Slide 3"></button>
                         </div>
                         <div class="animate-on-scroll  carousel-inner">
-                            <div class="animate-on-scroll  carousel-item active" data-bs-interval="2000">
+                            <div class="carousel-item active" data-bs-interval="5000">
                                 <img src="assets/imgs/logo_lemansville.webp" class="d-block w-100" alt="Logo Le Mans Ville">
 
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
+                            <div class="carousel-item" data-bs-interval="5000">
                                 <img src="assets/imgs/logo_leMansMetropole.webp" class="d-block w-100" alt="Logo Le Mans Métropole">
 
                             </div>
-                            <div class="carousel-item">
+                            <div class="carousel-item" data-bs-interval="5000">
                                 <img src="assets/imgs/logo_sartheTourisme.webp" class="d-block w-100" alt="Logo Sarthe Tourisme">
                             </div>
 
