@@ -343,6 +343,8 @@ textarea {
 .mentions--container {
   flex-wrap: wrap;
   text-align: center;
+  margin-top: 100px;
+  height: 100vh;
 }
 
 .mentions--container__header {

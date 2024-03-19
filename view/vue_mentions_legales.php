@@ -35,5 +35,9 @@ include_once('view/vue_entete.php')
             </div>
         </div>
         <script src="assets/js/mentions.js"></script>
-    </body>
-</html>
+
+    <?php
+
+    include_once('view/vue_footer.php')
+
+    ?>
