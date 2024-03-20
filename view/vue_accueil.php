@@ -25,7 +25,7 @@
             -->
 
         <!--Section Hero-->
-            <section class="" id="solution">
+            <section class="" id="home">
                 <div class="animate-on-scroll bg-white solution--container px-4">
                     <div class="row">
                         <div class="col-12 col-md-6">
@@ -36,7 +36,7 @@
                             <div class="d-flex flex-column flex-md-row g-sm-2">
                                 <!--<a href="#" class="button__reservation text-white border-0 py-3 px-5 rounded-2 fs-6 fw-semibold me-4 w-100 w-md-auto mb-2 mb-md-0 text-center text-decoration-none" role="button">Réserver une démo</a>-->
                                 <a href=""  class="button__reservation text-white border-0 py-3 px-5 rounded-2 fs-6 fw-semibold me-4 w-100 w-md-auto mb-2 mb-md-0 text-center text-decoration-none" role="button" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/mindful-house-contact?primary_color=00b6f0'});return false;">Réservez une démo</a>
-                                <a href="#" class="button__details text-black border-0 py-3 px-5 rounded-2 fs-6 fw-semibold bg-white w-100 w-md-auto text-center text-decoration-none" role="button">Plus de détails</a>
+                                <a href="index.php#target_application" class="button__details text-black border-0 py-3 px-5 rounded-2 fs-6 fw-semibold bg-white w-100 w-md-auto text-center text-decoration-none" role="button">Plus de détails</a>
                             </div>
                         </div>
                         <div class="col-md-6 d-flex align-items-center justify-content-center">
@@ -76,7 +76,7 @@
             </section>
 
         <!--Section Usage-->
-            <section class="usage--container my-2 p-2" id="usages">
+            <section class="usage--container my-2 p-2" id="principes">
                 <h1 class=" animate-on-scroll  fw-bolder text-center my-3 mb-6 mb-md-5 fs-2">Le principe est simple </h1>
                 <div class="animate-on-scroll  usage--container__pictures d-flex justify-content-around my-2 flex-column flex-lg-row mt-5">
                     <!--
@@ -208,7 +208,7 @@
 
 
         <!-- Section Trust -->
-            <section class="py-4 partners--section" id="partners">
+            <section class="py-4 partners--section" id="trust_partners">
                 <h3 class="animate-on-scroll  fw-bold fs-2 text-center pb-4">Ils nous font déjà confiance</h3>
                 <div id="carouselTrust" class="animate-on-scroll carousel carousel-dark slide w-75 h-75 mx-auto shadow-lg " data-bs-ride="carousel">
 

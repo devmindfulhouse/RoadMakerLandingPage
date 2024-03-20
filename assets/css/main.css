@@ -21,6 +21,8 @@ body {
   font-family: var(--main-font);
 }
 
+
+
 /*==================== NAVBAR ====================*/
 .navbar--container {
   background-color: var(--main-color);
@@ -203,6 +205,8 @@ body {
 .argument--container__item p {
   color: var(--main-color);
 }
+
+
 
 /*==================== USAGE OF ROADMAKER ====================*/
 

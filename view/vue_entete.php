@@ -36,19 +36,17 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-sm-3 ms-lg-auto">
                 <li class="nav-item">
-                    <a class="nav-link text-white" aria-current="page" href="index.php#solution">La solution</a>
+                    <a class="nav-link text-white" aria-current="page" href="index.php#home">Accueil</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="index.php#principes">Le principe</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="index.php#specificities">Les spécificités</a>
+                    <a class="nav-link text-white" href="index.php#target_application">Caractéristiques</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="index.php#usages">Les usages</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="index.php#target_application">Les secteurs d'activités</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="index.php#partners">Les partenaires</a>
+                    <a class="nav-link text-white" href="index.php#partners">Nos partenaires</a>
                 </li>
                 <li class="nav-item me-lg-2">
                     <a class="nav-link text-white" href="index.php#contact">Contact</a>
