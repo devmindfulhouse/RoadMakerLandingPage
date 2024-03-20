@@ -34,7 +34,8 @@
                                 vos parcours avec Road Maker ! </h1>
                             <p class="fs-5 mb-4">Transformez vos circuits en balades interactives et offrez une expérience immersive à vos clients.</p>
                             <div class="d-flex flex-column flex-md-row g-sm-2">
-                                <a href="#" class="button__reservation text-white border-0 py-3 px-5 rounded-2 fs-6 fw-semibold me-4 w-100 w-md-auto mb-2 mb-md-0 text-center text-decoration-none" role="button">Réserver une démo</a>
+                                <!--<a href="#" class="button__reservation text-white border-0 py-3 px-5 rounded-2 fs-6 fw-semibold me-4 w-100 w-md-auto mb-2 mb-md-0 text-center text-decoration-none" role="button">Réserver une démo</a>-->
+                                <a href=""  class="button__reservation text-white border-0 py-3 px-5 rounded-2 fs-6 fw-semibold me-4 w-100 w-md-auto mb-2 mb-md-0 text-center text-decoration-none" role="button" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/mindful-house-contact?primary_color=00b6f0'});return false;">Réservez une démo</a>
                                 <a href="#" class="button__details text-black border-0 py-3 px-5 rounded-2 fs-6 fw-semibold bg-white w-100 w-md-auto text-center text-decoration-none" role="button">Plus de détails</a>
                             </div>
                         </div>
