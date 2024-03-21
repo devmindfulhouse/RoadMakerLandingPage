@@ -24,14 +24,6 @@ include_once('view/vue_entete.php')
                         Mail : <a href="mailto:contact@mindful.house.fr">contact@mindful.house.fr</a>
                     </address>
                 </section>
-                <section class="mentions--container__identity__item ">
-                    <h2>Identité de l'hébergeur</h2>
-                    <address>
-                        <strong>GITHUB INC.</strong><br>
-                        Adresse : 88 Colin P Kelly Jr St, San Francisco, CA 94107, États-Unis<br>
-                        Site web : <a href="https://github.com/">Site de Github</a>
-                    </address>
-                </section>
             </div>
         </div>
         <script src="assets/js/mentions.js"></script>

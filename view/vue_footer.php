@@ -3,6 +3,7 @@
         <div class="footer__nav">
             <a class="nav-link text-white" href="index.php?section=mentions_legales">Mentions légales</a>
         </div>
+        <p class="mt-2">© 2024 Mindful House - Tous droits réservés</p>
     </div>
 </footer>
 
