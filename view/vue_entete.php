@@ -26,7 +26,7 @@
 <!-- End Google Tag Manager (noscript) -->
 
 <nav class="navbar--container navbar navbar-expand-lg navbar-dark fixed-top">
-            <a class="navbar-brand text-white fs-3 fw-bold ms-3" href="#">
+            <a class="navbar-brand text-white fs-3 fw-bold" href="index.php">
                 <img src="assets/imgs/logo_header.webp" alt="" role="presentation" class="d-inline-block align-top">
                 RoadMaker
             </a>
