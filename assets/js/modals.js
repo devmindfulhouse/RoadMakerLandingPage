@@ -30,8 +30,12 @@ function animateModal(modal) {
 }
 
 // Fonction pour afficher la boîte de dialogue modale de consentement
+// Définir dataLayer et la fonction gtag globalement
+window.dataLayer = window.dataLayer || [];
+function gtag() { dataLayer.push(arguments); }
+
 function showConsentModal() {
-    //Permet de récupéer la valeur du cookie consentCookies si elle existe
+    // Récupérer la valeur du cookie consentCookies si elle existe
     const consentValue = document.cookie.split(";").find((cookie) => cookie.trim().startsWith("consentCookies="))?.split("=")[1];
 
     if (consentValue === "true") {
@@ -39,35 +43,66 @@ function showConsentModal() {
     } else if (consentValue !== "true") {
         consentModal.showModal();
         animateModal(consentModal);
+
+        // Ajouter des écouteurs d'événements aux boutons d'acceptation et de refus
+        const acceptButton = document.querySelector("#accept-ga");
+        const declineButton = document.querySelector("#decline-ga");
+
+        acceptButton.addEventListener("click", () => {
+            gtag('consent', 'update', {
+                'ad_storage': 'granted',
+                'ad_user_data': 'granted',
+                'ad_personalization': 'granted',
+                'analytics_storage': 'granted'
+            });
+            consentModal.close();
+            // Enregistrer le consentement dans un cookie
+            document.cookie = "consent=accepted; path=/";
+            // Ajouter l'interaction à la couche de données
+            window.dataLayer.push({ 'event': 'consent_given' });
+            // Charger la balise Google
+            loadGoogleTagManager();
+        });
+
+        declineButton.addEventListener("click", () => {
+            gtag('consent', 'update', {
+                'ad_storage': 'denied',
+                'ad_user_data': 'denied',
+                'ad_personalization': 'denied',
+                'analytics_storage': 'denied'
+            });
+            consentModal.close();
+            // Enregistrer le refus de consentement dans un cookie
+            document.cookie = "consent=denied; path=/";
+            // Ajouter l'interaction à la couche de données
+            window.dataLayer.push({ 'event': 'consent_denied' });
+        });
     }
 }
 
 function loadGoogleTagManager() {
-    const gaScript = document.createElement("script");
-    gaScript.text = "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WH5QRF83');";
-    document.head.prepend(gaScript);
+    // Définir le consentement par défaut à 'denied'
+    gtag('consent', 'default', {
+        'ad_storage': 'denied',
+        'ad_user_data': 'denied',
+        'ad_personalization': 'denied',
+        'analytics_storage': 'denied'
+    });
 
-    const gaNoScript = document.createElement("noscript");
-    gaNoScript.innerHTML = "<iframe src='https://www.googletagmanager.com/ns.html?id=GTM-WH5QRF83' height='0' width='0' style='display:none;visibility:hidden'></iframe>";
-    document.body.prepend(gaNoScript);
+    // Charger le script Google tag (gtag.js)
+    // Load gtag.js script.
+    var gtagScript = document.createElement('script');
+    gtagScript.async = true;
+    gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-XRVLXRSCPX';
+
+    var firstScript = document.getElementsByTagName('script')[0];
+    firstScript.parentNode.insertBefore(gtagScript,firstScript);
+
 }
 
-acceptButton.addEventListener("click", () => {
-    expiryDate.setMonth(expiryDate.getMonth() + 13);
-    document.cookie = `consentCookies=true; expires=${expiryDate.toUTCString()}; path=/`;
-    loadGoogleTagManager();
-    consentModal.close();
-});
 
 
-declineButton.addEventListener("click", () => {
-    expiryDate.setMonth(expiryDate.getMonth() + 13);
-    document.cookie = `consentCookies=false; expires=${expiryDate.toUTCString()}; path=/`;
-    consentModal.close();
-
-});
-
-
+// Appeler la fonction showConsentModal lorsque le DOM est complètement chargé
 window.addEventListener("DOMContentLoaded", showConsentModal);
 
 // Fonction pour envoyer un email
