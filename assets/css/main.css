@@ -565,7 +565,7 @@ textarea {
   border: 0.5rem solid var(--main-color); /* Utilisation de la couleur principale */
   border-radius: 15px;
   text-align: center;
-  width: 30%;
+
 }
 
 .modal__consent__header {

@@ -275,50 +275,17 @@
                     </section>
         </div>
 
-            <!--Loading Modal-->
-            <dialog class="loading__modal justify-content-center align-items-center flex-column rounded-4 text-center" id="loading__modal">
-
-                    <div class="loading__modal__header">
-                        <img src="assets/imgs/Dual Ring-1s-200px.gif" alt="" role="presentation">
-
-                    </div>
-                    <div class="loading__modal__body d-flex flex-column align-items-center text-wrap m-auto p-auto">
-                        <h1 class="fs-5 fw-bold">Envoi en cours</h1>
-                    </div>
-
-            </dialog>
-
-            <!-- Modal contact -->
-            <dialog class="modal__contact justify-content-center align-items-center flex-column rounded-4 text-center" id="modal__contact">
-                <div class="icon__modal__contact">
-                    <i class="fa-solid fa-check"></i>
-                </div>
-                <div class="modal__contact__header">
-                    <h1 class="fs-2 fw-bold ">Message envoyé</h1>
-                </div>
-                <div class="modal__contact__body d-flex flex-column align-items-center text-wrap m-auto p-auto">
-                    <p class="">Votre message a bien été envoyé. Nous vous recontacterons dans les plus brefs délais.<br>Un email récapitulatif de votre demande à été envoyé à l'adresse que vous nous avez communiqué.</p>
-                </div>
-                <div class="modal__contact__footer">
-                    <button class="modal__contact__footer__button fw-semibold  text-white border-0 rounded-pill px-4 py-2 fs-6  mb-2" id="close__modal__contact">Fermer</button>
-                </div>
-            </dialog>
+        <div id="modals">
+            <?php
+                echo file_get_contents('view/modals/loading-modal.html');
+                echo file_get_contents('view/modals/contact-modal.html');
+                echo file_get_contents('view/modals/consent-modal.html');
+            ?>
+        </div>
 
 
-            <!-- Modal consent -->
-            <dialog class="modal__consent justify-content-center align-items-center flex-column rounded-4 text-center" id="modal__consent">
-                <div class="modal__consent__header">
-                    <i class="icon__modal__consent fa-solid fa-cookie-bite mb-2"></i>
-                    <h2 class="fs-3 fw-bold">Consentement aux cookies</h2>
-                </div>
-                <div class="modal__consent__body d-flex flex-column align-items-center text-wrap p-4">
-                    <p class="mb-4">Ce site web utilise Google Analytics pour collecter des données anonymes afin d'améliorer votre expérience. En acceptant, vous consentez à l'utilisation de cookies à des fins d'analyse de trafic.</p>
-                    <div class="modal__consent__buttons">
-                        <button class="modal__consent__button modal__consent__accept  text-white fw-semibold border-0 rounded-pill px-4 py-2 fs-6 me-2" id="accept-ga">Accepter</button>
-                        <button class="modal__consent__button modal__consent__decline  text-white fw-semibold border-0 rounded-pill px-4 py-2 fs-6" id="decline-ga">Refuser</button>
-                    </div>
-                </div>
-            </dialog>
+
+
 
 
             <?php
