@@ -29,18 +29,16 @@ function animateModal(modal) {
     );
 }
 
-// Fonction pour afficher la boîte de dialogue modale de consentement
-// Définir dataLayer et la fonction gtag globalement
 window.dataLayer = window.dataLayer || [];
 function gtag() { dataLayer.push(arguments); }
 
 function showConsentModal() {
     // Récupérer la valeur du cookie consentCookies si elle existe
-    const consentValue = document.cookie.split(";").find((cookie) => cookie.trim().startsWith("consentCookies="))?.split("=")[1];
+    const consentValue = document.cookie.split(";").find((cookie) => cookie.trim().startsWith("consent="))?.split("=")[1];
 
-    if (consentValue === "true") {
+    if (consentValue === "accepted") {
         loadGoogleTagManager();
-    } else if (consentValue !== "true") {
+    } else {
         consentModal.showModal();
         animateModal(consentModal);
 
@@ -56,11 +54,11 @@ function showConsentModal() {
                 'analytics_storage': 'granted'
             });
             consentModal.close();
-            // Enregistrer le consentement dans un cookie
+
             document.cookie = "consent=accepted; path=/";
-            // Ajouter l'interaction à la couche de données
+
             window.dataLayer.push({ 'event': 'consent_given' });
-            // Charger la balise Google
+
             loadGoogleTagManager();
         });
 
@@ -72,9 +70,9 @@ function showConsentModal() {
                 'analytics_storage': 'denied'
             });
             consentModal.close();
-            // Enregistrer le refus de consentement dans un cookie
+
             document.cookie = "consent=denied; path=/";
-            // Ajouter l'interaction à la couche de données
+
             window.dataLayer.push({ 'event': 'consent_denied' });
         });
     }
@@ -89,8 +87,7 @@ function loadGoogleTagManager() {
         'analytics_storage': 'denied'
     });
 
-    // Charger le script Google tag (gtag.js)
-    // Load gtag.js script.
+
     var gtagScript = document.createElement('script');
     gtagScript.async = true;
     gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-XRVLXRSCPX';
