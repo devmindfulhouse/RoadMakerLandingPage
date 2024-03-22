@@ -305,6 +305,22 @@
             </dialog>
 
 
+            <!-- Modal consent -->
+            <dialog class="modal__consent justify-content-center align-items-center flex-column rounded-4 text-center" id="modal__consent">
+                <div class="modal__consent__header">
+                    <i class="icon__modal__consent fa-solid fa-cookie-bite mb-2"></i>
+                    <h2 class="fs-3 fw-bold">Consentement aux cookies</h2>
+                </div>
+                <div class="modal__consent__body d-flex flex-column align-items-center text-wrap p-4">
+                    <p class="mb-4">Ce site web utilise Google Analytics pour collecter des données anonymes afin d'améliorer votre expérience. En acceptant, vous consentez à l'utilisation de cookies à des fins d'analyse de trafic.</p>
+                    <div class="modal__consent__buttons">
+                        <button class="modal__consent__button modal__consent__accept  text-white fw-semibold border-0 rounded-pill px-4 py-2 fs-6 me-2" id="accept-ga">Accepter</button>
+                        <button class="modal__consent__button modal__consent__decline  text-white fw-semibold border-0 rounded-pill px-4 py-2 fs-6" id="decline-ga">Refuser</button>
+                    </div>
+                </div>
+            </dialog>
+
+
             <?php
 
             include_once('view/vue_footer.php')

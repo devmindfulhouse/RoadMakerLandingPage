@@ -557,6 +557,71 @@ textarea {
 }
 
 
+/* Modal de consentement */
+.modal__consent {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 0.5rem solid var(--main-color); /* Utilisation de la couleur principale */
+  border-radius: 15px;
+  text-align: center;
+  width: 30%;
+}
+
+.modal__consent__header {
+  color: var(--main-color); /* Utilisation de la couleur principale */
+}
+
+.modal__consent__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-wrap: balance;
+  color: var(--main-color); /* Utilisation de la couleur principale */
+  margin: auto;
+  padding: auto;
+
+}
+
+.icon__modal__consent {
+  background-color: var(--main-color); /* Utilisation de la couleur principale */
+  color: white;
+  padding: 2rem;
+  font-size: 2.5rem;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.modal__consent__buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.modal__consent__accept {
+  background-color: var(--main-color); /* Utilisation de la couleur principale */
+  transition: transform 0.25s ease-out;
+}
+
+.modal__consent__decline {
+  transition: transform 0.25s ease-out;
+  background-color: var(--second-color); /* Utilisation de la couleur secondaire */
+}
+
+.modal__consent__accept:hover,
+.modal__consent__decline:hover {
+  transform: scale(1.05);
+}
+
+.modal__consent::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 /*==================== RESPONSIVE ====================*/
 
 @media (max-width: 575.98px) {
