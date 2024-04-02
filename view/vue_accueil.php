@@ -26,8 +26,8 @@
 
         <!--Section Hero-->
         <div class="main-content">
-                <section class="" id="home">
-                    <div class="solution--container animate-on-scroll bg-white  px-4">
+                <section class="mx-3" id="home">
+                    <div class="solution--container animate-on-scroll bg-white">
                         <div class="row">
                             <div class="col-12 col-md-6">
                                 <p class="caption--text fs-6"></p>
@@ -46,8 +46,8 @@
                 </section>
 
             <!--Section Specificities-->
-                <section id="specificities" class="mt-5">
-                    <div class="animate-on-scroll  d-flex flex-column flex-lg-row gap-md-4 px-4 py-5  ">
+                <section id="specificities" class="specificites--container">
+                    <div class="animate-on-scroll  d-flex flex-column flex-lg-row gap-md-4 px-4 mt-5">
                         <div class="argument--container__item d-flex flex-column align-items-center text-center col shadow-sm p-2 rounded-4">
                             <i class="fa-solid fa-location-dot mb-2 pt-3 "></i>
                             <h2 class="fs-3 fw-bolder mb-2 text-wrap mx-2">Conception de vos propres parcours digitaux</h2>
@@ -75,7 +75,7 @@
                 </section>
 
             <!--Section Usage-->
-                <section class="usage--container my-2 p-2" id="principes">
+                <section class="usage--container" id="principes">
                     <h1 class=" animate-on-scroll  fw-bolder text-center my-3 mb-6 mb-md-5 fs-2">Le principe est simple </h1>
                     <div class="animate-on-scroll  usage--container__pictures d-flex justify-content-around my-2 flex-column flex-lg-row mt-5">
                         <!--
@@ -92,7 +92,7 @@
                             <img src="assets/imgs/smartphone-illu.webp" alt="" role="presentation" class="rounded-4 w-75 w-lg-50">
                             <h3 class="text-wrap fw-bold text-align-center fs-5 mt-3">Déployer votre circuit sur RoadBook</h3>
                         </div>
-                        <div class="usage--container__pictures__item d-flex flex-column align-items-center mb-5">
+                        <div class="usage--container__pictures__item d-flex flex-column align-items-center">
                             <img src="assets/imgs/friends-illu.webp" alt="" role="presentation" class="rounded-4 w-75 w-lg-50">
                             <h3 class="text-wrap fw-bold text-align-center fs-5 mt-3">Faites profiter vos clients</h3>
                         </div>
@@ -109,7 +109,7 @@
 
             <!--Section Target Application-->
                 <section class="target--container" id="target_application">
-                    <h1 class=" animate-on-scroll  fw-bolder text-center mb-5 mt-4 mx-4 fs-2 ">Pourquoi RoadMaker ? </h1>
+                    <h1 class=" animate-on-scroll  fw-bolder text-center mb-5 fs-2 ">Pourquoi RoadMaker ? </h1>
                     <div class="animate-on-scroll  d-flex justify-content-around p-2 mt-3 flex-column flex-lg-row align-items-stretch mx-4 gap-md-4">
 
                         <div class="target--application__item d-flex flex-column align-items-center text-center col mb-3 shadow-sm p-2 rounded-4 ">
@@ -162,7 +162,7 @@
                 </section>
 
          <!-- Section Partners -->
-                <section class="py-4 partners--section mb-5" id="partners">
+                <section class="py-4 partners--section" id="partners">
                     <h3 class="animate-on-scroll  fw-bold fs-2 text-center pb-4">Nos partenaires</h3>
                     <div id="carouselPartners" class="animate-on-scroll  carousel carousel-dark slide w-75 h-75 mx-auto shadow-lg " data-bs-ride="carousel">
                         <div class="carousel-indicators">
@@ -205,7 +205,7 @@
 
 
             <!-- Section Trust -->
-                <section class="py-4 partners--section" id="trust_partners">
+                <section class="py-4 partners--section " id="trust_partners">
                     <h3 class="animate-on-scroll  fw-bold fs-2 text-center pb-4">Ils nous font déjà confiance</h3>
                     <div id="carouselTrust" class="animate-on-scroll carousel carousel-dark slide w-75 h-75 mx-auto shadow-lg " data-bs-ride="carousel">
 
@@ -242,7 +242,7 @@
 
 
             <!--Section Contact-->
-                <section id="contact">
+                <section id="contact" class="contact--section">
                         <div class=" animate-on-scroll  d-flex flex-column align-items-center my-4">
                             <div class="contact--container__header text-center mb-3">
                                 <h1 class="fw-bold text-center fs-2">Contactez-nous</h1>
