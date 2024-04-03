@@ -22,7 +22,7 @@ body {
 }
 
 
-.specificites--container, .usage--container, .target--container, .partners--section, .contact--section {
+.specificites--container, .usage--container, .target--container, .partners--section, .contact--section, .news_container {
   margin-top:100px;
 }
 
@@ -629,9 +629,19 @@ textarea {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+/*==================== NEWS ====================*/
+.news_container h1 {
+  color: var(--main-color);
+}
+
+.news_container iframe {
+    width: 100%;
+    height: 500px;
+}
+
 /*==================== RESPONSIVE ====================*/
 
-@media (max-width: 575.98px) {
+@media (max-width: 575px) {
   .navbar-nav { margin-left: 20px; }
   .navbar-brand { margin-left: 25px; }
   .carousel-item img { height: 300px; }
@@ -640,13 +650,13 @@ textarea {
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (min-width: 576px) and (max-width: 767px) {
   .target--application__item { height: 400px; }
   .solution--container img { width: 50%; }
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .navbar-brand { margin-left: 10px; }
   .navbar-nav { margin-right: 16%; }
   .solution--container img { width: 50%; }

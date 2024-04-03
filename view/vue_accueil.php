@@ -45,6 +45,7 @@
                     </div>
                 </section>
 
+
             <!--Section Specificities-->
                 <section id="specificities" class="specificites--container">
                     <div class="animate-on-scroll  d-flex flex-column flex-lg-row gap-md-4 px-4 mt-5">
@@ -73,6 +74,12 @@
                         -->
                     </div>
                 </section>
+
+
+            <section class="news_container" id="news">
+                <h1 class="animate-on-scroll fw-bolder text-center my-3 mb-6 mb-md-5 fs-2">Actualités </h1>
+                <iframe src='https://widgets.sociablekit.com/linkedin-page-posts/iframe/25391741' class="animate-on-scroll"></iframe>
+            </section>
 
             <!--Section Usage-->
                 <section class="usage--container" id="principes">
@@ -201,7 +208,6 @@
                         </button>
                     </div>
                 </section>
-
 
 
             <!-- Section Trust -->
