@@ -3,6 +3,9 @@
   src: url("../vue/font/Inter-VariableFont_slnt\,wght.ttf");
 }
 
+
+
+
 :root {
   --main-color: #00b6f0;
   --main-font: "Inter", sans-serif;
@@ -19,11 +22,13 @@ body {
   margin: 0;
   min-height: 100vh;
   font-family: var(--main-font);
+
 }
 
 
-.specificites--container, .usage--container, .target--container, .partners--section, .contact--section, .news_container {
-  margin-top:100px;
+.usage--container, .target--container, .partners--section, .contact--section, .news_container {
+  margin-top:150px;
+  scroll-margin-top: 6rem;
 }
 
 
@@ -135,8 +140,10 @@ body {
 
 /*==================== SOLUTION ====================*/
 .solution--container {
-  margin-top: 100px;
+  margin-top: 150px;
   height: 350px;
+  scroll-margin-top: 6rem;
+
 }
 
 .solution--container h1 {
@@ -204,6 +211,10 @@ body {
   }
 }
 
+.argument--container {
+  margin-top: 100px;
+
+}
 
 
 .argument--container__item i {
@@ -235,6 +246,7 @@ body {
 
 .usage--container h1 {
   color: var(--main-color);
+  margin-bottom: 75px;
 }
 
 .usage--container h3 {
@@ -272,6 +284,9 @@ body {
   color: var(--main-color);
 }
 
+#target_application {
+  margin-top: 200px; /* Ajustez cette valeur selon vos besoins */
+}
 /*
 .target--application__item img {
   width: 12rem;
@@ -647,12 +662,17 @@ textarea {
   .carousel-item img { height: 300px; }
   .nav-link::before { content: none; }
   .nav-link:hover::before { left: -100%; }
+  .solution--container { margin-top: 100px; }
+  .usage--container, .target--container, .partners--section, .contact--section, .news_container {
+    margin-top:75px;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767px) {
   .target--application__item { height: 400px; }
   .solution--container img { width: 50%; }
+
 }
 
 /* Medium devices (tablets, 768px and up) */

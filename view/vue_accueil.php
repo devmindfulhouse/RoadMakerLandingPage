@@ -25,12 +25,12 @@
             -->
 
         <!--Section Hero-->
-        <div class="main-content">
+        <div class="main-content" >
                 <section class="mx-3" id="home">
                     <div class="solution--container animate-on-scroll bg-white">
-                        <div class="row">
+                        <div class="row" >
                             <div class="col-12 col-md-6">
-                                <p class="caption--text fs-6"></p>
+                                <p class="caption--text fs-6" ></p>
                                 <h1 class="fw-bold m-4"><i>Réinventez vos parcours avec Road Maker !</i></h1>
                                 <p class="fs-4 mb-5">Transformez vos circuits en balades interactives et offrez une expérience immersive à vos clients.</p>
                                 <div class="d-flex flex-column flex-md-row g-sm-2">
@@ -43,11 +43,11 @@
                             </div>
                         </div>
                     </div>
-                </section>
+
 
 
             <!--Section Specificities-->
-                <section id="specificities" class="specificites--container">
+                <div class="argument--container">
                     <div class="animate-on-scroll  d-flex flex-column flex-lg-row gap-md-4 px-4 mt-5">
                         <div class="argument--container__item d-flex flex-column align-items-center text-center col shadow-sm p-2 rounded-4">
                             <i class="fa-solid fa-location-dot mb-2 pt-3 "></i>
@@ -65,14 +65,8 @@
                             <p class="fs-6 fw-normal mb-1 text-wrap mx-2">Combinez jeu et réalité augmentée pour un parcours interactif et immersif.
                             </p>
                         </div>
-                        <!--
-                        <div class="argument--container__item d-flex flex-column align-items-center text-center">
-                            <i class="fa-solid fa-person-rays mb-2 pt-3 "></i>
-                            <h2 class="fs-3 fw-bolder mb-2 text-wrap mx-2">Une solution agile pour s'adapter aux utilisateurs</h2>
-                            <p class="fs-6 fw-normal mb-1 text-wrap mx-2">Quelque soit l'objectif du créateur de parcours dans la solution JEMos, les nombreuses fonctionnalités de création permettent de répondre aux besoins sans être un expert en informatique.</p>
-                        </div>
-                        -->
                     </div>
+                </div>
                 </section>
 
 
@@ -83,7 +77,7 @@
 
             <!--Section Usage-->
                 <section class="usage--container" id="principes">
-                    <h1 class=" animate-on-scroll  fw-bolder text-center my-3 mb-6 mb-md-5 fs-2">Le principe est simple </h1>
+                    <h1 class=" animate-on-scroll  fw-bolder text-center fs-2">Le principe est simple </h1>
                     <div class="animate-on-scroll  usage--container__pictures d-flex justify-content-around my-2 flex-column flex-lg-row mt-5">
                         <!--
                         <div class="usage--container__pictures__item d-flex flex-column align-items-center mb-sm-4">
