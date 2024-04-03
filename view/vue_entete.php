@@ -54,7 +54,9 @@
                 <li class="nav-item">
                     <a class="nav-link text-white" aria-current="page" href="index.php#home">Accueil</a>
                 </li>
-
+                <li class="nav-item">
+                    <a class="nav-link text-white" aria-current="page" href="index.php#news">Actualités</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link text-white" href="index.php#principes">Le principe</a>
                 </li>
