@@ -22,6 +22,13 @@ body {
 }
 
 
+.specificites--container, .usage--container, .target--container, .partners--section, .contact--section, .news_container {
+  margin-top:100px;
+}
+
+
+
+
 
 /*==================== NAVBAR ====================*/
 .navbar--container {
@@ -557,9 +564,84 @@ textarea {
 }
 
 
+/* Modal de consentement */
+.modal__consent {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 0.5rem solid var(--main-color); /* Utilisation de la couleur principale */
+  border-radius: 15px;
+  text-align: center;
+
+}
+
+.modal__consent__header {
+  color: var(--main-color); /* Utilisation de la couleur principale */
+}
+
+.modal__consent__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-wrap: balance;
+  color: var(--main-color); /* Utilisation de la couleur principale */
+  margin: auto;
+  padding: auto;
+
+}
+
+.icon__modal__consent {
+  background-color: var(--main-color); /* Utilisation de la couleur principale */
+  color: white;
+  padding: 2rem;
+  font-size: 2.5rem;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.modal__consent__buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.modal__consent__accept {
+  background-color: var(--main-color); /* Utilisation de la couleur principale */
+  transition: transform 0.25s ease-out;
+}
+
+.modal__consent__decline {
+  transition: transform 0.25s ease-out;
+  background-color: var(--second-color); /* Utilisation de la couleur secondaire */
+}
+
+.modal__consent__accept:hover,
+.modal__consent__decline:hover {
+  transform: scale(1.05);
+}
+
+.modal__consent::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*==================== NEWS ====================*/
+.news_container h1 {
+  color: var(--main-color);
+}
+
+.news_container iframe {
+    width: 100%;
+    height: 500px;
+}
+
 /*==================== RESPONSIVE ====================*/
 
-@media (max-width: 575.98px) {
+@media (max-width: 575px) {
   .navbar-nav { margin-left: 20px; }
   .navbar-brand { margin-left: 25px; }
   .carousel-item img { height: 300px; }
@@ -568,13 +650,13 @@ textarea {
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (min-width: 576px) and (max-width: 767px) {
   .target--application__item { height: 400px; }
   .solution--container img { width: 50%; }
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .navbar-brand { margin-left: 10px; }
   .navbar-nav { margin-right: 16%; }
   .solution--container img { width: 50%; }

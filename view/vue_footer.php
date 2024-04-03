@@ -9,7 +9,8 @@
 
     <script src="assets/js/scroll-animations.js"></script>
     <script src="assets/js/app.js"></script>
-    <script src="assets/js/sendEmail.js"></script>
+
+    <script src="assets/js/modals.js"></script>
     <script type="text/javascript"
             src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
     </script>
