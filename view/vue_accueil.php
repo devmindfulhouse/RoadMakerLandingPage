@@ -28,7 +28,7 @@
         <div class="main-content">
                 <section class="" id="home">
                     <div class="solution--container animate-on-scroll bg-white  px-4">
-                        <div class="row">
+                        <div class="row" style="margin-top: 200px;">
                             <div class="col-12 col-md-6">
                                 <p class="caption--text fs-6"></p>
                                 <h1 class="fw-bold m-4"><i>Réinventez vos parcours avec Road Maker !</i></h1>
