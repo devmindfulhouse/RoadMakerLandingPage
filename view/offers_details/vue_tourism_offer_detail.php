@@ -34,7 +34,7 @@
                     <h3 class="fw-bold fs-5 text-center mx-5 mx-lg-0">Intervention d'EcoMobile Loisirs sur France Bleu dans l'émission Bienvenue Chez vous</h3>
                 </div>
             </div>
-            <div class="socials--container d-flex flex-column flex-lg-row gap-3 align-items-center my-3 my-lg-0">
+            <div class="socials--container d-flex flex-column flex-lg-row gap-3 align-items-center my-5 my-lg-0">
                 <div class="social--container--item d-flex flex-column justify-content-center align-items-center mt-3">
                     <div class="social--container--item--icon d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-globe"></i>
@@ -70,3 +70,9 @@
             </a>
         </div>
     </div>
+
+    <?php
+
+    include_once('view/vue_footer.php');
+
+    ?>

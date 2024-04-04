@@ -20,11 +20,16 @@
 
 body {
   margin: 0;
+  display: flex;
+    flex-direction: column;
   min-height: 100vh;
   font-family: var(--main-font);
 
 }
 
+footer {
+  margin-top: auto;
+}
 
 .usage--container, .target--container, .partners--section, .contact--section, .news--container, .offers--container {
   margin-top:150px;
@@ -416,6 +421,7 @@ textarea {
 /*==================== FOOTER ====================*/
 .footer--container {
   background-color: var(--main-color);
+  margin-top: auto;
 }
 
 .footer--container .footer__nav a {

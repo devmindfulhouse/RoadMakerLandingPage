@@ -37,3 +37,9 @@
             </a>
         </div>
     </div>
+
+    <?php
+
+    include_once('view/vue_footer.php');
+
+    ?>
