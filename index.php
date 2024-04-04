@@ -14,6 +14,17 @@ else if ($_GET['section'] == 'tourism_offer')
 {
     include_once('controller/offers_controller/offer_tourism.php');
 }
+else if ($_GET['section'] == 'education_offer')
+{
+    include_once('controller/offers_controller/offer_education.php');
+
+}
+else if ($_GET['section'] == 'event_offer')
+{
+    include_once('controller/offers_controller/offer_event.php');
+
+}
+
 
 
 

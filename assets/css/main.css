@@ -689,6 +689,11 @@ textarea {
   transition: transform 0.25s ease-out;
 }
 
+.offers--container a:hover {
+  transition: transform 0.25s ease-out;
+  transform: translateY(-3px);
+}
+
 /*==================== RESPONSIVE ====================*/
 
 @media (max-width: 575px) {
@@ -733,10 +738,6 @@ textarea {
   .nav-link::before { content: none; }
   .nav-link:hover::before { left: -100%; }
 }
-
-
-
-
 
 /*====================================================*/
 
