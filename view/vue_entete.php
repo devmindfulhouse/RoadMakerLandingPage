@@ -64,6 +64,9 @@
                     <a class="nav-link text-white" href="index.php#target_application">Caractéristiques</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link text-white" href="index.php#offer">Notre offre</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link text-white" href="index.php#partners">Nos partenaires</a>
                 </li>
                 <li class="nav-item me-lg-2">

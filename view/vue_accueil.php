@@ -70,10 +70,10 @@
                 </section>
 
 
-            <section class="news_container" id="news">
-                <h1 class="animate-on-scroll fw-bolder text-center my-3 mb-6 mb-md-5 fs-2">Actualités </h1>
-                <iframe src='https://widgets.sociablekit.com/linkedin-page-posts/iframe/25391741' class="animate-on-scroll"></iframe>
-            </section>
+                <section class="news--container" id="news">
+                    <h1 class="animate-on-scroll fw-bolder text-center my-3 mb-6 mb-md-5 fs-2">Actualités </h1>
+                    <iframe src='https://widgets.sociablekit.com/linkedin-page-posts/iframe/25392294' class="animate-on-scroll"></iframe>
+                </section>
 
             <!--Section Usage-->
                 <section class="usage--container" id="principes">
@@ -161,6 +161,32 @@
                         </div>
                     </div>
                 </section>
+
+            <!-- Section Notre offre -->
+            <section class="offers--container" id="offer">
+                <h1 class="animate-on-scroll fw-bolder text-center mb-5 fs-2 ">Notre offre</h1>
+                <div class="animate-on-scroll  d-flex justify-content-around p-2 mt-3 flex-column flex-lg-row align-items-stretch mx-4 gap-md-4">
+                    <div class="offers--container__item col-12 col-lg-4 d-flex flex-column align-items-center text-center mb-3 shadow-sm p-2 rounded-4">
+                        <img src="assets/imgs/museum.webp" alt="Tourisme" class="my-2 rounded-4">
+                        <h3 class="fw-bold mb-2 text-wrap">Tourisme et lieux culturels</h3>
+                        <p class=" paragraphe__museum fw-normal text-wrap px-1 ">Permettre à des visiteurs de s'approprier un lieu de manière ludique en gardant l'aspect pédagogique. Ainsi, il est aussi possible de mettre en avant un site spécifique pour une mise en valeur renforcée.</p>
+                        <a href="index.php?section=tourism_offer" class="text-white border-0 py-3 px-2 rounded-2 fs-6 fw-semibold w-100 w-md-auto mb-3 mx-3 mb-md-0 text-center text-decoration-none mt-auto" role="button">Plus de détails</a>
+                    </div>
+                    <div class="offers--container__item col-12 col-lg-4 d-flex flex-column align-items-center text-center mb-3 shadow-sm p-2 rounded-4 ">
+                        <img src="assets/imgs/education.webp" alt="Education" class="my-2 rounded-4">
+
+                        <h3  class="fw-bold mb-2 text-wrap mx-2">Education et Pédagogie d'apprentissage</h3>
+                        <p class="fw-normal text-wrap px-1">Les enseignants peuvent utiliser la solution RoadMaker pour apporter une innovation pédagogique et ludique à leurs enseignements. D'autre part c'est un moyen de créer un lien renforcé avec et entre les étudiants.</p>
+                        <a href="" class="text-white border-0 py-3 px-2 rounded-2 fs-6 fw-semibold w-100 w-md-auto mb-3 mx-3 mb-md-0 text-center text-decoration-none mt-auto" role="button">Plus de détails</a>
+                    </div>
+                    <div class="offers--container__item col-12 col-lg-4 d-flex flex-column align-items-center text-center mb-3 shadow-sm p-2 rounded-4">
+                        <img src="assets/imgs/onboarding.webp" alt="Onboarding" class="my-2 rounded-4">
+                        <h3  class="fw-bold mb-2 text-wrap mx-2 ">Evénementiel d'entreprise et Onboarding</h3>
+                        <p class="fw-normal  text-wrap px-1">La notion de partage et d'interaction pour ainsi créer un effet de groupe est l'un des atouts de la solution RoadMaker. Ainsi, vous pouvez créer un parcours de team building coopératif pour permettre à vos équipes de créer du lien tout en apportant un contenu pédagogique en lien avec l'entreprise.</p>
+                        <a href="" class="text-white border-0 py-3 px-2 rounded-2 fs-6 fw-semibold w-100 w-md-auto mb-3 mx-3 mb-md-0 text-center text-decoration-none mt-auto" role="button">Plus de détails</a>
+                    </div>
+                </div>
+            </section>
 
          <!-- Section Partners -->
                 <section class="py-4 partners--section" id="partners">
