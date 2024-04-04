@@ -130,7 +130,7 @@
         left: 5px;
     }
 
-    .video--education--container--item iframe, .video--event--container--item iframe {
+    .video--education--container--item iframe, .video--event--container--item iframe, .video--container--item iframe {
         width: 350px;
         height: 300px;
 
