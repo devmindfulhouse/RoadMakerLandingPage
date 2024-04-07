@@ -1,0 +1,145 @@
+
+.tourism_offer--container, .education_offer--container, .event_offer--container {
+    margin-top: 100px;
+}
+
+
+.tourism_offer--container h1, .education_offer--container h1, .event_offer--container h1 {
+    color: #00b6f0;
+}
+
+.video--container--item iframe {
+
+    border-radius: 15px;
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 5px;
+
+}
+
+.video--education--container--item iframe {
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+
+}
+
+.video--event--container--item iframe {
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+
+.video--container--item {
+
+
+}
+
+.video--container--item h3, .video--education--container--item h3, .video--event--container--item h3 {
+    color: #eb5d17;
+}
+
+.social--container--item a {
+    color: #00b6f0;
+    text-decoration: none;
+}
+
+
+
+
+.social--container--item {
+    width: 390px;
+}
+
+.social--container--item--icon {
+    /*faire un background en cercle*/
+    background-color: #00b6f0;
+    border-radius: 50%;
+    padding: 15px;
+    height: 60px;
+    width: 60px;
+    color: white;
+    font-size: 30px;
+
+}
+
+
+.video--education {
+    width : 400px;
+    height: 200px;
+}
+
+
+
+
+/*====================  BACK TO LAST PAGE  ====================*/
+
+.back_to_last_page--icon {
+    background-color: #eb5d17;
+    border-radius: 50%;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    color: white;
+    font-size: 20px;
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes swing {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(-3px); }
+    100% { transform: translateX(0); }
+}
+
+.back_to_last_page--icon i:hover {
+    animation: swing 1s ease-in-out infinite;
+    transition: 0.5s;
+}
+
+
+
+.back_to_last_page--link span {
+    color: #eb5d17;
+
+}
+
+.back_to_last_page--container {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 100; /* Assurez-vous qu'il est au-dessus des autres éléments */
+}
+
+
+/*====================  RESPONSIVE  ====================*/
+@media (max-width: 575px) {
+    .back_to_last_page--link span {
+        display: none; /* Cela cache le texte du span */
+
+
+    }
+
+    .back_to_last_page--container {
+        bottom: 10px;
+        left: 5px;
+    }
+
+    .video--education--container--item iframe, .video--event--container--item iframe, .video--container--item iframe {
+        width: 350px;
+        height: 300px;
+
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .back_to_last_page--link span {
+        display: none; /* Cela cache le texte du span */
+
+
+    }
+
+}

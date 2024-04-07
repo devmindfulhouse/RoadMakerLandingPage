@@ -20,13 +20,18 @@
 
 body {
   margin: 0;
+  display: flex;
+    flex-direction: column;
   min-height: 100vh;
   font-family: var(--main-font);
 
 }
 
+footer {
+  margin-top: auto;
+}
 
-.usage--container, .target--container, .partners--section, .contact--section, .news_container {
+.usage--container, .target--container, .partners--section, .contact--section, .news--container, .offers--container {
   margin-top:150px;
   scroll-margin-top: 6rem;
 }
@@ -416,6 +421,7 @@ textarea {
 /*==================== FOOTER ====================*/
 .footer--container {
   background-color: var(--main-color);
+  margin-top: auto;
 }
 
 .footer--container .footer__nav a {
@@ -645,13 +651,53 @@ textarea {
 }
 
 /*==================== NEWS ====================*/
-.news_container h1 {
+.news--container h1 {
   color: var(--main-color);
 }
 
-.news_container iframe {
+.news--container iframe {
     width: 100%;
     height: 500px;
+}
+
+
+/*==================== OFFERS ====================*/
+
+.offers--container h1 {
+  color : var(--main-color);
+
+}
+
+.offers--container__item img {
+  width: 200px;
+  height: auto;
+}
+
+.offers--container__item h3 {
+  color : var(--main-color);
+  font-size: 25px;
+}
+
+.offers--container__item p {
+  color : var(--main-color);
+
+
+}
+
+.paragraphe__museum {
+  margin-top: 30px;
+}
+
+.offers--container a {
+  background-color: var(--second-color);
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.2), 0 2px 5px rgba(0, 0, 0, 0.15);
+  filter: drop-shadow(0 0 0.8rem rgba(0, 0, 0, 0.2));
+  transition: transform 0.25s ease-out;
+}
+
+.offers--container a:hover {
+  transition: transform 0.25s ease-out;
+  transform: translateY(-3px);
 }
 
 /*==================== RESPONSIVE ====================*/
@@ -663,8 +709,11 @@ textarea {
   .nav-link::before { content: none; }
   .nav-link:hover::before { left: -100%; }
   .solution--container { margin-top: 100px; }
-  .usage--container, .target--container, .partners--section, .contact--section, .news_container {
+  .usage--container, .target--container, .partners--section, .contact--section, .news--container, .offers--container {
     margin-top:75px;
+  }
+  .paragraphe__museum {
+    margin-top: 5px;
   }
 }
 
@@ -695,10 +744,6 @@ textarea {
   .nav-link::before { content: none; }
   .nav-link:hover::before { left: -100%; }
 }
-
-
-
-
 
 /*====================================================*/
 

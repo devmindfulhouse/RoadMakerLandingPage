@@ -38,7 +38,7 @@ function showConsentModal() {
 
     if (consentValue === "accepted") {
         loadGoogleTagManager();
-    } else {
+    } else if (consentValue !== "denied") {
         consentModal.showModal();
         animateModal(consentModal);
 
@@ -55,7 +55,7 @@ function showConsentModal() {
             });
             consentModal.close();
 
-            document.cookie = "consent=accepted; path=/";
+            document.cookie = "consent=accepted; path=/; max-age=" + 60 * 60 * 24 * 30 * 14; // Pour le consentement accepté
 
             window.dataLayer.push({ 'event': 'consent_given' });
 
@@ -71,7 +71,7 @@ function showConsentModal() {
             });
             consentModal.close();
 
-            document.cookie = "consent=denied; path=/";
+            document.cookie = "consent=denied; path=/; max-age=" + 60 * 60 * 24 * 30 * 13;
 
             window.dataLayer.push({ 'event': 'consent_denied' });
         });
