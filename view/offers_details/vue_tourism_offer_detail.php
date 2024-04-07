@@ -7,6 +7,7 @@
     <div class="main-content" >
         <section class="tourism_offer--container">
             <h1 class="fw-bolder text-center my-3 mb-6 mb-md-5 fs-2">Notre offre pour le tourisme et lieux culturels</h1>
+            <h4 class="col-lg-12 m-5 fw-bold fs-5 text-center mt-2 mx-3">Grace à Road Maker, notre partenaire EcoMobile Loisirs réalise des parcours innovants</h4>
             <div class="container px-0">
                 <div class="row">
                     <div class="col-lg-12 d-flex flex-column justify-content-center">
@@ -38,14 +39,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-12 mt-auto">
+                    <h4 class="col-lg-12 mt-5 fw-bold fs-5 text-center mt-2 mx-3"> Pour en savoir plus sur EcoMobile Loisirs
                         <div class="socials--container d-flex flex-column flex-lg-row gap-5 align-items-center justify-content-center mb-5 mt-4">
                             <div class="social--container--item d-flex flex-column justify-content-center align-items-center mt-3">
                                 <div class="social--container--item--icon d-flex justify-content-center align-items-center">
                                     <i class="fa-solid fa-globe"></i>
                                 </div>
                                 <h4 class="fw-bold fs-5 text-center mt-2 mx-3">
-                                    <a href="https://www.ecomobileloisirs.fr/" target="_blank">Le site d'EcoMobile Loisirs</a>
+                                    <a href="https://www.ecomobileloisirs.fr/" target="_blank">Site web</a>
                                 </h4>
                             </div>
                             <div class="social--container--item d-flex flex-column justify-content-center align-items-center mt-3">
@@ -53,7 +54,7 @@
                                     <i class="fa-brands fa-youtube"></i>
                                 </div>
                                 <h4 class="fw-bold fs-5 text-center mt-2 mx-3">
-                                    <a href="https://www.youtube.com/@ecomobileloisirs" target="_blank">Chaine Youtube d'EcoMobile Loisirs</a>
+                                    <a href="https://www.youtube.com/@ecomobileloisirs" target="_blank">Chaine Youtube</a>
                                 </h4>
                             </div>
                             <div class="social--container--item d-flex flex-column justify-content-center align-items-center mt-3">
@@ -61,11 +62,11 @@
                                     <i class="fa-brands fa-linkedin-in"></i>
                                 </div>
                                 <h4 class="fw-bold fs-5 text-center mt-2 mx-3">
-                                    <a href="https://www.linkedin.com/company/ecomobileloisirs/" target="_blank">Page Linkedin d'EcoMobile Loisirs</a>
+                                    <a href="https://www.linkedin.com/company/ecomobileloisirs/" target="_blank">Linkedin</a>
                                 </h4>
                             </div>
                         </div>
-                    </div>
+                    </h4>
                 </div>
                 </div>
             </div>

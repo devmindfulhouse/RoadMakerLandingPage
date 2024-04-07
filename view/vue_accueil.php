@@ -175,7 +175,7 @@
                     <div class="offers--container__item col-12 col-lg-4 d-flex flex-column align-items-center text-center mb-3 shadow-sm p-2 rounded-4 ">
                         <img src="assets/imgs/education.webp" alt="Education" class="my-2 rounded-4">
 
-                        <h3  class="fw-bold mb-2 text-wrap mx-2">Education et Pédagogie d'apprentissage</h3>
+                        <h3  class="fw-bold mb-2 text-wrap mx-2">Education et pédagogie d'apprentissage</h3>
                         <p class="fw-normal text-wrap px-1">Les enseignants peuvent utiliser la solution RoadMaker pour apporter une innovation pédagogique et ludique à leurs enseignements. D'autre part c'est un moyen de créer un lien renforcé avec et entre les étudiants.</p>
                         <a href="index.php?section=education_offer" class="text-white border-0 py-3 px-2 rounded-2 fs-6 fw-semibold w-100 w-md-auto mb-3 mx-3 mb-md-0 text-center text-decoration-none mt-auto" role="button">Plus de détails</a>
                     </div>
