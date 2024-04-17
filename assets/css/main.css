@@ -746,6 +746,20 @@ textarea {
 }
 
 /*====================================================*/
+.testimonial-section{
+  text-align: justify;
+}
+.testimonial-txt{
+  font-family: "Comic Sans MS";
+  color: #00b6f0;
+}
+.testimonial-legend{
+  font-size: small;
+}
+.testimonial-img{
+  width: 80px !important;
+  border-radius: 50%;
+}
 
 
 /*==================== ANIMATION ====================*/
