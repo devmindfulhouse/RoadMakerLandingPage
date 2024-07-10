@@ -36,7 +36,7 @@
         gtag('js', new Date());
         gtag('config', 'G-XRVLXRSCPX');
     </script>
-    <title>RoadMaker</title>
+    <title><?php echo $pageTitle; ?></title>
 </head>
 <body>
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WH5QRF83" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
