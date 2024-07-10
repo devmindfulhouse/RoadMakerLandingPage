@@ -32,7 +32,7 @@ include_once('view/vue_entete.php')
                         Les images et vidéos de ce site web sont la propriété de leurs créateurs respectifs et sont utilisées sous licence ou avec leur autorisation.
                     </p>
                     <h3 class="fw-medium mt-4">Droit de réutilisation :</h3>
-                    <p>Vous êtes autorisé à consulter et à utiliser le texte de ce site web à des fins personnelles et non commerciales uniquement.<br>
+                    <p>Vous êtes autorisé à consulter et à utiliser le texte de ce site web uniquement à des fins personnelles et non commerciales.<br>
                         Vous ne pouvez pas reproduire, distribuer, modifier ou afficher le texte sans le consentement écrit préalable de <strong>Mindful House</strong>.
                     </p>
             </div>
