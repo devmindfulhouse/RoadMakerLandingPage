@@ -23,10 +23,15 @@ else if ($_GET['section'] == 'event_offer')
 {
     include_once('controller/offers_controller/offer_event.php');
 
-} else if ($_GET['section'] == "who_we_are")
+}
+else if ($_GET['section'] == "who_we_are")
 {
     include_once('controller/who_we_are.php');
 
+}
+else if ($_GET['section'] == 'politique_de_confidentialite')
+{
+    include_once('controller/politique_de_confidentialite.php');
 }
 
 

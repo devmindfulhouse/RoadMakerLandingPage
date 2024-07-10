@@ -71,7 +71,7 @@ function showConsentModal() {
             });
             consentModal.close();
 
-            document.cookie = "consent=denied; path=/; max-age=" + 60 * 60 * 24 * 30 * 13;
+            document.cookie = "consent=denied; path=/; max-age=" + 60 * 60 * 24 * 30 * 14;
 
             window.dataLayer.push({ 'event': 'consent_denied' });
         });

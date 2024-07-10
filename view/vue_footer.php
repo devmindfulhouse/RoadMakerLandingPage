@@ -1,7 +1,8 @@
 <footer>
     <div class="footer--container text-center mx-auto flex-column align-items-center flex-column flex-lg-row p-3 py-4">
         <div class="footer__nav">
-            <a class="nav-link text-white" href="index.php?section=mentions_legales">Mentions légales</a>
+            <a class="nav-link text-white me-2" href="index.php?section=mentions_legales">Mentions légales</a>
+            <a class="nav-link text-white" href="index.php?section=politique_de_confidentialite">Politique de confidentialité</a>
         </div>
         <div class="d-flex flex-column align-items-center">
             <a  class="text-decoration-none text-white" href="mailto:contact@mindful-house.fr" class="footer__nav text-white">Adresse e-mail : contact@mindful-house.fr</a>

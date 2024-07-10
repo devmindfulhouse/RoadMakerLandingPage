@@ -748,6 +748,14 @@ textarea {
 
 
 }
+
+
+
+/*==================== POLITIQUE DE CONFIDENTIALITE ====================*/
+
+.politique--container__item p{
+  white-space: pre-line;
+}
 /*==================== RESPONSIVE ====================*/
 
 @media (max-width: 575px) {
