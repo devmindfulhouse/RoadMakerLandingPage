@@ -794,7 +794,7 @@ textarea {
 @media (min-width: 992px) {
   .nav-link a::before { width: 30%; }
   .carousel-item img, .target--application__item { height: 400px; }
-  .main-content { width: 75%; margin: 0 auto; }
+  .main-content { width: 75%; margin: 0 auto; min-height: 100vh; }
   .navbar-brand { margin-left: 13%; }
   .navbar-nav { margin-right: 16%; }
   .target--application__item { height: 250px; }
