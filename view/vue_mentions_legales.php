@@ -20,7 +20,7 @@ include_once('view/vue_entete.php')
                         Société par actions simplifiées à associé unique<br>
                         RCS Le Mans: 903 365 690<br>
                         Numéro d'identification à la TVA : FR17903365690<br>
-                        Mail : <a href="mailto:contact@mindful.house.fr">contact@mindful.house.fr</a>
+                        Mail : <a href="mailto:contact@mindful-house.fr">contact@mindful-house.fr</a>
                     </address>
                 </section>
             </div>

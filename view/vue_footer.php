@@ -4,7 +4,7 @@
             <a class="nav-link text-white" href="index.php?section=mentions_legales">Mentions légales</a>
         </div>
         <div class="d-flex flex-column align-items-center">
-            <a  class="text-decoration-none text-white" href="mailto:contact@mindful.house.fr" class="footer__nav text-white">Adresse e-mail : contact@mindful.house.fr</a>
+            <a  class="text-decoration-none text-white" href="mailto:contact@mindful-house.fr" class="footer__nav text-white">Adresse e-mail : contact@mindful-house.fr</a>
             <a href="tel:+33601273376" class="text-decoration-none text-white" class="footer__nav text-white">Téléphone : +33 6 01 27 33 76</a>
             <p class="mt-2 text-white">© 2024 Mindful House - Tous droits réservés</p>
         </div>
