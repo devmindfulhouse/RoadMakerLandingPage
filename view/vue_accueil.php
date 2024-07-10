@@ -82,8 +82,7 @@ include_once('view/vue_entete.php')
     <section class="news--container" id="news">
         <h1 class="animate-on-scroll fw-bolder text-center my-3 mb-6 mb-md-5 fs-2">Actualités</h1>
         <!--                    <iframe src='https://widgets.sociablekit.com/linkedin-page-posts/iframe/25392294' class="animate-on-scroll"></iframe>-->
-        <div class='sk-ww-linkedin-page-post' data-embed-id='25398848'></div>
-        <script src='https://widgets.sociablekit.com/linkedin-page-posts/widget.js' async defer></script>
+        <div class='sk-ww-linkedin-page-post' data-embed-id='25435644'></div><script src='https://widgets.sociablekit.com/linkedin-page-posts/widget.js' async defer></script>
     </section>
 
     <!--Section Usage-->
